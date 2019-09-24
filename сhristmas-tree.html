@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crash-baggage</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fotorama.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- Предупреждение: Respond.js не работает при просмотре страницы через файл:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script >
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header class="header-page">
+    <div class="container container-relative">
+        <div class="header-flex-block">
+            <nav class="navbar navbar-default hidden-sm hidden-md hidden-lg">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-main">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">КАТАЛОГ</a></li>
+                        <li class="active"><a href="#">АКЦИИ</a></li>
+                        <li><a href="#">ДОСТАВКА</a></li>
+                        <li><a href="#">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="header-work-time-block hidden-xs">
+                <div class="header-icon">
+                    <img src="images/time-icon.png" alt="">
+                </div>
+                <div class="header-work-time">
+                    с 10 до 22<br>
+                    без выходных
+                </div>
+            </div>
+            <div class="header-address-block hidden-xs">
+                <div class="header-icon">
+                    <img src="images/metro-icon.png" alt="">
+                </div>
+                <div class="header-address-text">
+                    Дмитровская<br>
+                    (магазин)
+                </div>
+            </div>
+            <div class="header-phone hidden-xs">
+                <div class="header-icon">
+                    <img src="images/phone-icon.png" alt="">
+                </div>
+                <div class="header-address-text">
+                    <a href="tel:88005113659">8 (800) 511-36-59</a>
+                    <a href="tel:+74959887328">+7 (495) 988-73-28</a>
+                </div>
+            </div>
+            <div class="header-cart">
+                <div class="cart-sum-block">
+                    <div class="cart-image-number">
+                        <a href="#" class="cart-header-btn"><img src="images/cart.png" alt=""></a>
+                        <div class="cart-absolut-number">3</div>
+                    </div>
+                    <div class="cart-img-sum">66 000 р.</div>
+                </div>
+                <div class="header-cart-buy">
+                    <a href="#" data-toggle="modal" data-target="#order">Оформить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="modal fade" id="order" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                <span aria-hidden="true">×</span>
+            </button>
+            <div class="modal-body">
+                <div class="send-modal-flex">
+                    <div class="send-modal-goods">
+                        <div class="send-title-block">
+                            <div class="send-title">Ваши чемоданы:</div>
+                            <div class="cart-order-block">
+                                <img src="images/cart_brown.png" alt="">
+                                <div class="cart-absolut-number">3</div>
+                            </div>
+                        </div>
+                        <div class="row-goods-block">
+                            <div class="goods-modal-img">
+                                <img src="images/torba.png" alt="">
+                            </div>
+                            <div class="goods-information-block">
+                                <div class="goods-property-modal-title">Icon</div>
+                                <div class="goods-property-modal">
+                                <table border="0" cellpadding="1" cellspacing="1">
+                                    <tbody>
+                                    <tr>
+                                        <td>Размер</td>
+                                        <td>Ручная кладь</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Артикул</td>
+                                        <td>00 00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Габариты</td>
+                                        <td>55х36х20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Объем</td>
+                                        <td>37 л.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вес</td>
+                                        <td>2,4 кг.</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <div class="modal-goods-number">(2)</div>
+                                <div class="modal-goods-price">44 000р.</div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="row-goods-block">
+                            <div class="goods-modal-img">
+                                <img src="images/torba.png" alt="">
+                            </div>
+                            <div class="goods-information-block">
+                                <div class="goods-property-modal-title">Icon</div>
+                                <div class="goods-property-modal">
+                                    <table border="0" cellpadding="1" cellspacing="1">
+                                        <tbody>
+                                        <tr>
+                                            <td>Размер</td>
+                                            <td>Ручная кладь</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Артикул</td>
+                                            <td>00 00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Габариты</td>
+                                            <td>55х36х20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Объем</td>
+                                            <td>37 л.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Вес</td>
+                                            <td>2,4 кг.</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="modal-goods-number">(2)</div>
+                                    <div class="modal-goods-price">44 000р.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-sum">
+                            <div class="button-close-modal"><a href="#" data-dismiss="modal" aria-label="Закрыть">Продолжить покупки</a></div>
+                            <div class="sum-modal-text">Итого</div>
+                            <div class="sum-modal-price">66 000р.</div>
+                        </div>
+                    </div>
+                    <div class="send-modal-info">
+                        <div class="send-modal-title">Введите Ваши контактные данные</div>
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Номер телефона">
+                        <input type="text" placeholder="e-mail">
+                        <div class="main-button">
+                            <a href="#" class="main-button-catalog">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="main-banner-block">
+<div class="container relative-container">
+    <nav class="navbar navbar-default hidden-xs">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">КАТАЛОГ</a></li>
+                <li><a href="#">АКЦИИ</a></li>
+                <li><a href="#">ДОСТАВКА</a></li>
+                <li><a href="#">КОНТАКТЫ</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="image-responsive">
+    </div>
+</div>
+    <div class="center-image-banner">
+        <img src="images/banner.png" alt="">
+    </div>
+</section>
+<div class="hand-back">
+    <img src="images/hand.png" alt="" class="hidden-xs">
+    <img src="images/hand-mobile.png" alt="" class="hidden-lg hidden-md hidden-sm">
+</div>
+<div class="border-line-block">
+    <div class="container">
+        <div class="suitcase-flex">
+            <div class="suitcase-image">
+                <img src="images/suitcase.png" alt="">
+            </div>
+            <div class="suitcase-certificate-block">
+                <div class="suitcase-certificate-title">
+                    <h2>УДИВЛЕНЫ?</h2>
+                </div>
+                <div class="suitcase-certificate-desk">
+                    Сертификаты качества ЕС
+                </div>
+                <div class="main-button">
+                    <a href="#" class="main-button-catalog">ПОСМОТРЕТЬ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="container">
+    <h2 class="shares-right">НАШИ АКЦИИ</h2>
+    <div class="shares-block-flex">
+        <div class="shares-item shares-item-active">
+            <div class="shares-item-text">
+               <div class="shares-item-title">Бесплатная доставка</div>
+                <div class="shares-item-desk">Условия получения бесплатной доставки, краткое описание</div>
+            </div>
+            <div class="shares-item-icon">
+                <img src="images/car-icon.png" alt="">
+            </div>
+        </div>
+        <div class="shares-item">
+            <div class="shares-item-text">
+                <div class="shares-item-title">Подарок</div>
+                <div class="shares-item-desk">Условия получения бесплатной доставки, краткое описание</div>
+            </div>
+            <div class="shares-item-icon">
+                <img src="images/present.png" alt="">
+            </div>
+        </div>
+        <div class="shares-item orange">
+            <div class="shares-item-text">
+                <div class="shares-item-title">Комплект</div>
+                <div class="shares-item-desk">Условия получения бесплатной доставки, краткое описание</div>
+            </div>
+            <div class="shares-item-icon">
+                <img src="images/complect.png" alt="">
+            </div>
+        </div>
+        <div class="shares-item">
+                <div class="shares-item-text">
+                    <div class="shares-item-title">2 чемодана</div>
+                    <div class="shares-item-desk">Условия получения бесплатной доставки, краткое описание</div>
+                </div>
+                <div class="shares-item-icon">
+                    <img src="images/suicute.png" alt="">
+                </div>
+        </div>
+    </div>
+</section>
+<h2 class="center-title" id="catalog">КАТАЛОГ</h2>
+<section class="border-line-block">
+    <div class="container">
+        <div class="catalog-flex-block">
+            <div class="catalog-gallery">
+                <div class="fotorama" data-autoplay="false" data-width="100%"  data-fullscreenIcon="false" data-vertical="true">
+                    <img src="images/torba.png" />
+                    <img src="images/torba.png" />
+                    <img src="images/torba.png" />
+                    <img src="images/torba.png" />
+                </div>
+            </div>
+            <div class="catalog-items-block">
+                <div class="catalog-items-title">Icon</div>
+                <div class="flex-catalog-items-min">
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                </div>
+                <div class="catalog-items-title">Stripe</div>
+                <div class="flex-catalog-items-min">
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                </div>
+                <div class="catalog-items-title">Mini Icon</div>
+                <div class="flex-catalog-items-min">
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                </div>
+                <div class="catalog-items-title">Share Transparent</div>
+                <div class="flex-catalog-items-min">
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-property">
+                <div class="size-title">Выберите размер</div>
+                <div class="tabs-size-block">
+                    <form class="form">
+                        <div class="rabs btn-toggle" data-toggle="buttons">
+                            <label class="btn btn-default active">
+                                <input type="radio" name="options" value="option1">Ручная кладь
+                            </label>
+                            <label class="btn btn-default">
+                                <input type="radio" name="options" value="option2" checked="">M
+                            </label>
+                            <label class="btn btn-default">
+                                <input type="radio" name="options" value="option3" checked="">L
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="price-block-stage hidden-xs">22 000р.
+                    <img src="images/label.png" alt="">
+                </div>
+                <div class="price-block-stage-mobile hidden-sm hidden-md hidden-lg">
+                    <div class="price-block-stage">22 000р.
+                        <img src="images/label.png" alt="">
+                    </div>
+                    <div class="main-button btn-catalog-buy">
+                        <a href="#" class="main-button-catalog">В КОРЗИНУ <img src="images/cart.png" alt=""></a>
+                    </div>
+                </div>
+                <table border="0" cellpadding="1" cellspacing="1" style="width:100%;" class="table-property hidden-xs">
+                    <tbody>
+                    <tr>
+                        <td>Артикул</td>
+                        <td><strong>00 00</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Габариты</td>
+                        <td><strong>55х36х20</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Объем</td>
+                        <td><strong>37 л.</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Вес</td>
+                        <td><strong>24 кг.</strong></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table border="0" cellpadding="1" cellspacing="1" style="width:100%;" class="table-property hidden-sm hidden-md hidden-lg">
+                    <tbody>
+                    <tr>
+                        <td>Артикул</td>
+                        <td><strong>00 00</strong></td>
+                        <td>Объем</td>
+                        <td><strong>37 л.</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Габариты</td>
+                        <td><strong>55х36х20</strong></td>
+                        <td>Вес</td>
+                        <td><strong>2.4 кг.</strong></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="main-button btn-catalog-buy hidden-xs">
+                    <a href="#" class="main-button-catalog">В КОРЗИНУ <img src="images/cart.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-items-mobile">
+            <div class="flex-catalog-items-title-block">
+            <div class="catalog-items-title">Icon</div>
+                <div class="flex-catalog-items-min">
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-catalog-items-title-block">
+                <div class="catalog-items-title">Stripe</div>
+                <div class="flex-catalog-items-min">
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-catalog-items-title-block">
+                <div class="catalog-items-title">Mini Icon</div>
+                <div class="flex-catalog-items-min">
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-catalog-items-title-block">
+                <div class="catalog-items-title">Share Transparent</div>
+                <div class="flex-catalog-items-min">
+                    <div class="catalog-items-min">
+                        <a href="#"><img src="images/torba.png" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <h2 class="center-title">КАЖДЫЙ ЧЕМОДАН ЭТО:</h2>
+    <div class="flex-advantages">
+        <div class="advantages-item">
+            <img src="images/advantage1.png" alt="">
+            <div class="description-advantages">
+                <span class="description-relative">Качественная подкладка</span>
+            </div>
+        </div>
+        <div class="advantages-item">
+            <img src="images/advantage2.png" alt="">
+            <div class="description-advantages">
+                <span class="description-relative">Подлинный экземпляр</span>
+            </div>
+        </div>
+        <div class="advantages-item">
+            <img src="images/advantage3.png" alt="">
+            <div class="description-advantages">
+                <span class="description-relative">Высокопрочные колесики</span>
+            </div>
+        </div>
+        <div class="advantages-item">
+            <img src="images/advantage4.png" alt="">
+            <div class="description-advantages">
+                <span class="description-relative">Надежный замок</span>
+            </div>
+        </div>
+        <div class="advantages-item">
+            <img src="images/advantage5.png" alt="">
+            <div class="description-advantages">
+                <span class="description-relative">Удобные ручки</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="orange-baggage-back">
+    <div class="container">
+        
+        <!--<div class="delivery-image-flex">
+            <div class="delivery-baggage">
+                <img src="images/delive1.png" alt="">
+            </div>
+            <div class="delivery-image-form">
+                <div class="title-form-delivery">
+                    ДОСТАВИМ ЧЕМОДАН ЗА <span class="yellow-text-item">2 ЧАСА</span>
+                </div>
+                <div class="delivery-text-line">
+                    <img src="images/yellow1.png" alt="">
+                    <span>Оформление заявки</span>
+                </div>
+                <div class="delivery-text-line">
+                    <img src="images/yellow2.png" alt="">
+                    <span>Комплектация заказа</span>
+                </div>
+                <div class="delivery-text-line">
+                    <img src="images/yellow3.png" alt="">
+                    <span>Доставка по МСК за 2 часа</span>
+                </div>
+                <div class="form-text-delivery-small">
+                    *доставка в регионы осуществляется за 2-3 дня.
+                </div>
+            </div>
+            <div class="delivery-image-back">
+                <img src="images/delive2.png" alt="">
+            </div>
+        </div>-->
+        <img src="images/delive-full.png" alt="" class="image-baggage-desktop">
+    </div>
+    <img src="images/delive-tablet.png" alt="" class="image-baggage-tablet hidden-xs">
+    <img src="images/delive-mobile.png" alt="" class="hidden-lg hidden-md hidden-sm">
+</section>
+<div class="container">
+    <h2 class="center-title insta-italic">Instagram</h2>
+    <div class="instagram-center-page">
+        <div class="flex-instagram">
+            <div class="instagram-item">
+                <a href="#"><img src="images/insta1.png" alt=""></a>
+            </div>
+            <div class="instagram-item">
+                <a href="#"><img src="images/insta2.png" alt=""></a>
+            </div>
+            <div class="instagram-item">
+                <a href="#"><img src="images/insta3.png" alt=""></a>
+            </div>
+            <div class="instagram-item">
+                <a href="#"><img src="images/insta4.png" alt=""></a>
+            </div>
+            <div class="instagram-item">
+                <a href="#"><img src="images/insta5.png" alt=""></a>
+            </div>
+            <div class="instagram-item">
+                <a href="#"><img src="images/insta6.png" alt=""></a>
+            </div>
+            <div class="instagram-item">
+                <a href="#"><img src="images/insta7.png" alt=""></a>
+            </div>
+            <div class="instagram-item">
+                <a href="#"><img src="images/insta8.png" alt=""></a>
+            </div>
+            <div class="instagram-item">
+                <a href="#"><img src="images/insta9.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="banner-baggage-block">
+        <img src="images/baggage-banner.png" alt="">
+    </div>
+</div>
+<section class="grey-background">
+    <div class="container">
+        <div class="bottom-text-center">
+            <div class="bold-bottom-text">
+                «О ЧЕМ МЫ ДУМАЕМ В ПЕРВУЮ ОЧЕРЕДЬ, КОГДА ХОТИМ ПРИОБРЕСТИ ЧЕМОДАН? МЫ ВОЛНУЕМСЯ О ЕГО ПРОЧНОСТИ, А ТАКЖЕ О ТОМ, ЧТО НАШ ЧЕМОДАН НЕ БУДЕТ ИСПОРЧЕН ВО ВРЕМЯ ПОЕЗДОК»
+            </div>
+            <p>Именно поэтому наши чемоданы уже имеют "вмятины", выглядят изношенными или помятыми.</p>
+            <p>С Crash Baggage мы хотим перевернуть представление р багаже. Наша философия "Пользуйся без забот" повышает свободу передвижений и действий везде и всегда, без каких-либо забот.</p>
+            <p>Наши чемоданы имеют широкий размерный ряд для комфортного путешествия, от ручной клади до больших размеров, которые позволяют даже дальние поездки сделать удобными.</p>
+            <p>Наши чемоданы изготавливаются из АБС-пластика и поликарбоната, эти материалы обеспечивают долговечность, легкий вес и комфорт. Все это мы делаем с заботой об окружающей среде: все наши изделия безопасны для экологии и реализованы с ограничением присутствия химических элементов в различных компонентах в максимально возможной степени.</p>
+            <p>Путешествуйте без страхов, нет причин для волнения о вашем багаже!</p>
+            <p><b>Пользуйся без забот!</b></p>
+        </div>
+    </div>
+</section>
+<footer class="footer-page">
+    <div class="container">
+        <div class="footer-flex-block">
+            <div class="footer-logo">
+                <img src="images/logo-footer.png">
+            </div>
+            <div class="footer-links">
+                <a href="#">Каталог</a>
+                <a href="#">Доставка</a>
+                <a href="#">Оплата</a>
+                <a href="#" class="hidden-lg hidden-md">Акции</a>
+                <a href="#" class="hidden-lg hidden-md">Контакты</a>
+                <a href="#" class="hidden-lg hidden-md">Гарантия и сервис</a>
+            </div>
+            <div class="footer-links hidden-sm hidden-xs">
+                <a href="#">Акции</a>
+                <a href="#">Контакты</a>
+                <a href="#">Гарантия и сервис</a>
+            </div>
+            <div class="footer-address">
+                <div class="footer-address-item">
+                    <img src="images/footer-map.png" alt="">
+                    <span>127015, г. Москва, ул. Вятская, д.49, стр.15</span>
+                </div>
+                <div class="footer-address-item">
+                    <img src="images/footer-tel.png" alt="">
+                    <span><a href="tel:+74959887328">+7 (495) 988-73-28</a></span>
+                </div>
+            </div>
+            <div class="footer-social">
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                <div class="footer-btn">
+                    <button type="submit">Помогите нам стать лучше</button>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-block">Все права защищены</div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Включают все скомпилированные плагины (ниже), или включать отдельные файлы по мере необходимости -->
+<script src="js/bootstrap.js"></script>
+<script src="js/fotorama.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
