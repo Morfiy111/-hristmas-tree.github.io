@@ -23,25 +23,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="183" column="1" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="23" />
+            <state relative-caret-position="111">
+              <caret line="638" column="1" selection-start-line="638" selection-start-column="1" selection-end-line="638" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="228" column="55" selection-start-line="228" selection-start-column="55" selection-end-line="228" selection-end-column="55" />
+            <state relative-caret-position="152">
+              <caret line="252" column="31" selection-start-line="252" selection-start-column="31" selection-end-line="252" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>share</find>
+      <find>shares</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,14 +56,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/сhristmas-tree.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="y" value="184" />
+    <option name="x" value="-87" />
+    <option name="y" value="133" />
     <option name="width" value="1371" />
     <option name="height" value="818" />
   </component>
@@ -67,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,7 +90,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,18 +121,19 @@
       <option name="presentableId" value="Default" />
       <updated>1569304318383</updated>
       <workItem from="1569304319796" duration="9161000" />
-      <workItem from="1569321773318" duration="625000" />
+      <workItem from="1569321773318" duration="670000" />
+      <workItem from="1569322594024" duration="3338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9786000" />
+    <option name="totallyTimeSpent" value="13169000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="184" width="1371" height="818" extended-state="0" />
+    <frame x="-87" y="133" width="1371" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25360668" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -158,17 +165,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="183" column="1" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="23" />
+        <state relative-caret-position="152">
+          <caret line="252" column="31" selection-start-line="252" selection-start-column="31" selection-end-line="252" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="228" column="55" selection-start-line="228" selection-start-column="55" selection-end-line="228" selection-end-column="55" />
+        <state relative-caret-position="111">
+          <caret line="638" column="1" selection-start-line="638" selection-start-column="1" selection-end-line="638" selection-end-column="1" />
         </state>
       </provider>
     </entry>
