@@ -282,8 +282,6 @@ a:focus {
 .catalog-property {
     width: 20%;
     margin-top: 25px;
-    padding-left: 20px;
-    border-left: 1px solid #e2e2e2;
 }
 .catalog-items-min:hover {
     border: 1px solid transparent;
@@ -337,13 +335,11 @@ a:focus {
 .price-block-stage {
     margin: 30px 0;
     text-align: center;
-    border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     font-size: 30px;
-    box-shadow: 0px 0px 31px 0px rgba(119,119,119,0.66);
     font-weight: bold;
     position: relative;
-    width: 79%;
+    background: linear-gradient(to right, #f4ce76 , #caa15e);
 }
 .price-block-stage img {
     position: absolute;
