@@ -38,9 +38,6 @@ a:focus {
 .header-flex-block a {
     color: #fff;
 }
-.main-banner-block img {
-    width: 100%;
-}
 .header-work-time-block, .header-address-block, .header-phone {
     display: flex;
 }
@@ -150,7 +147,35 @@ a:focus {
     background-color: transparent;
     color: #fff;
 }
-
+.image-responsive {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+}
+.banners-image-flex {
+    width: 39.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image-banners {
+    width: 59.5%;
+}
+.absolut-trees {
+    position: absolute;
+    top: 0;
+    left: -100px;
+}
+.btn-banners-block img {
+    width: 100%;
+}
+.btn-banners-block {
+    position: relative;
+}
+.image-banners-width-flex {
+    display: flex;
+    justify-content: flex-end;
+}
 .hand-back img {
     width: 100%;
 }
