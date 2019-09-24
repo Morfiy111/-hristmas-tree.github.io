@@ -166,6 +166,24 @@ a:focus {
     top: 0;
     left: -100px;
 }
+.main-button-obj {
+    color: #fff;
+    border: 2px solid transparent;
+    border-image: linear-gradient(#f4ce76 , #caa15e);
+    border-radius: 5px;
+    border-image-slice: 1;
+    padding: 8px 20px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.main-button-obj:hover {
+    background: linear-gradient(#f4ce76 , #caa15e);
+    color: #000;
+}
+.main-button-obj-center {
+    right: 22%;
+}
 .btn-banners-block img {
     width: 100%;
 }
