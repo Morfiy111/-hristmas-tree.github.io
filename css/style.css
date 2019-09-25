@@ -367,24 +367,6 @@ a:focus {
 .table-property {
     margin-bottom: 50px;
 }
-.orange-baggage-back {
-    background-color: #fdc32e;
-    height: 335px;
-    margin-bottom: 160px;
-}
-.delivery-image-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("../images/delive4.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.orange-baggage-back img {
-    width: 100%;
-    position: relative;
-    bottom: 20px;
-}
 .delivery-image-form {
     background-color: #fff;
     display: flex;
@@ -431,9 +413,6 @@ a:focus {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-}
-.insta-italic {
-    font-style: italic;
 }
 .banner-baggage-block img {
     width: 100%;

@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="764" column="17" selection-start-line="764" selection-start-column="17" selection-end-line="764" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="415" column="1" selection-start-line="415" selection-start-column="1" selection-end-line="415" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="598" column="73" selection-start-line="598" selection-start-column="53" selection-end-line="598" selection-end-column="73" />
+            <state relative-caret-position="228">
+              <caret line="233" column="6" selection-start-line="233" selection-start-column="6" selection-end-line="233" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -63,8 +63,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="119" />
-    <option name="y" value="319" />
+    <option name="x" value="156" />
+    <option name="y" value="80" />
     <option name="width" value="1371" />
     <option name="height" value="818" />
   </component>
@@ -124,15 +124,15 @@
       <workItem from="1569304319796" duration="9161000" />
       <workItem from="1569321773318" duration="670000" />
       <workItem from="1569322594024" duration="9644000" />
-      <workItem from="1569399907284" duration="5549000" />
+      <workItem from="1569399907284" duration="5731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25024000" />
+    <option name="totallyTimeSpent" value="25206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="119" y="319" width="1371" height="818" extended-state="0" />
+    <frame x="156" y="80" width="1371" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26119968" />
@@ -169,15 +169,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="598" column="73" selection-start-line="598" selection-start-column="53" selection-end-line="598" selection-end-column="73" />
+        <state relative-caret-position="228">
+          <caret line="233" column="6" selection-start-line="233" selection-start-column="6" selection-end-line="233" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="764" column="17" selection-start-line="764" selection-start-column="17" selection-end-line="764" selection-end-column="17" />
+        <state relative-caret-position="315">
+          <caret line="415" column="1" selection-start-line="415" selection-start-column="1" selection-end-line="415" selection-end-column="1" />
         </state>
       </provider>
     </entry>
