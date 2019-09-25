@@ -163,7 +163,8 @@ a:focus {
 .absolut-trees {
     position: absolute;
     top: 0;
-    left: -100px;
+    left: -70px;
+    height: 600px;
 }
 .main-button-obj {
     color: #fff;
