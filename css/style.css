@@ -424,6 +424,8 @@ a:focus {
 .footer-page {
     background: linear-gradient(to right, #fcab48 , #b27f41);
     color: #fff;
+    position: relative;
+    padding: 60px 0;
 }
 .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default, .btn-default.active.focus {}
 .footer-flex-block a {
@@ -712,7 +714,7 @@ button.close {
 .video-block {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 140px;
 }
 .delivery-block {
     margin-bottom: 40px;
@@ -726,6 +728,39 @@ button.close {
     align-items: center;
     flex-direction: column;
     bottom: 38%;
+}
+.tabs-catalog-link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.tabs-catalog-link a {
+    color: #7b7b7b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.tabs-catalog-link a:nth-child(2) {
+    border-right: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+}
+.tabs-catalog-link a:hover {
+    color:#fdc32e;
+}
+.tabs-catalog-link img {
+    margin-bottom: 5px;
+}
+.footer-img-top {
+    width: 100%;
+    position: absolute;
+    top: -137px;
+}
+.footer-img-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
