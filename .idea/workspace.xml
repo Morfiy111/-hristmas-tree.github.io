@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/min-banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/min-banner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shares-icon1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/shares-icon1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shares-icon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/shares-icon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shares-icon3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/shares-icon3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/сhristmas-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/сhristmas-tree.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,26 +22,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
+            <state relative-caret-position="210">
               <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="336" column="23" selection-start-line="336" selection-start-column="23" selection-end-line="336" selection-end-column="23" />
+            <state relative-caret-position="150">
+              <caret line="721" column="11" selection-start-line="721" selection-start-column="11" selection-end-line="721" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+            <state relative-caret-position="183">
+              <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -46,6 +53,7 @@
       <find>share</find>
       <find>shares</find>
       <find>catalog-items-min</find>
+      <find>обратит</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -55,14 +63,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/сhristmas-tree.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="108" />
-    <option name="y" value="94" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-24" />
+    <option name="y" value="80" />
     <option name="width" value="1371" />
     <option name="height" value="818" />
   </component>
@@ -121,18 +129,19 @@
       <updated>1569304318383</updated>
       <workItem from="1569304319796" duration="9161000" />
       <workItem from="1569321773318" duration="670000" />
-      <workItem from="1569322594024" duration="9578000" />
+      <workItem from="1569322594024" duration="9644000" />
+      <workItem from="1569399907284" duration="2234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19409000" />
+    <option name="totallyTimeSpent" value="21709000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="94" width="1371" height="818" extended-state="0" />
+    <frame x="-24" y="80" width="1371" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574032" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26119968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -159,22 +168,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
+        <state relative-caret-position="210">
           <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="336" column="23" selection-start-line="336" selection-start-column="23" selection-end-line="336" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+        <state relative-caret-position="183">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="721" column="11" selection-start-line="721" selection-start-column="11" selection-end-line="721" selection-end-column="11" />
         </state>
       </provider>
     </entry>
