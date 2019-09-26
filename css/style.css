@@ -6,6 +6,10 @@ body {
     background-image: url("../images/bg.jpg");
     background-size: 100%;
 }
+@font-face {
+    font-family: 'cambria';
+    src: url('../fonts/cambria.ttc');
+}
 a, button {
     transition: all .3s linear;
 }
@@ -745,13 +749,14 @@ button.close {
 }
 .video-text {
     position: absolute;
-    left: -160px;
+    left: -140px;
     transform: rotate(-90deg);
     font-size: 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
     bottom: 42%;
+    font-family: 'cambria';
 }
 .tabs-catalog-link {
     display: flex;

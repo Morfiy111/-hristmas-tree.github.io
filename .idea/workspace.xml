@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/сhristmas-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/сhristmas-tree.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="262" column="34" selection-start-line="262" selection-start-column="34" selection-end-line="262" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="750" column="23" lean-forward="true" selection-start-line="750" selection-start-column="23" selection-end-line="750" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -40,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
@@ -72,14 +71,14 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/сhristmas-tree.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="471" />
+    <option name="x" value="10" />
+    <option name="y" value="128" />
     <option name="width" value="1371" />
     <option name="height" value="818" />
   </component>
@@ -145,15 +144,15 @@
       <workItem from="1569321773318" duration="670000" />
       <workItem from="1569322594024" duration="9644000" />
       <workItem from="1569399907284" duration="13418000" />
-      <workItem from="1569486413951" duration="13546000" />
+      <workItem from="1569486413951" duration="14281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46439000" />
+    <option name="totallyTimeSpent" value="47174000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="471" width="1371" height="818" extended-state="0" />
+    <frame x="10" y="128" width="1371" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657555" />
@@ -195,17 +194,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="262" column="34" selection-start-line="262" selection-start-column="34" selection-end-line="262" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="635" column="72" selection-start-line="635" selection-start-column="72" selection-end-line="635" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="750" column="23" lean-forward="true" selection-start-line="750" selection-start-column="23" selection-end-line="750" selection-end-column="23" />
         </state>
       </provider>
     </entry>
