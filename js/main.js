@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".description-banner-block .main-button-catalog").on("click", function () {
+    $(".btn-banners-block a").on("click", function () {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
