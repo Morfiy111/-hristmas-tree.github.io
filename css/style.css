@@ -268,6 +268,10 @@ a:focus {
     width: 22%;
     box-shadow: 2px -2px 33px 0px rgba(150, 150, 150, 0.55);
     padding: 20px 0;
+    z-index: 1;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    background-color: #fff;
 }
 .flex-catalog-items-min {
     display: flex;
@@ -289,6 +293,7 @@ a:focus {
 .catalog-items-block {
     width: 59%;
     padding: 20px;
+    box-shadow: 6px 0px 12px 0px rgba(150, 150, 150, 0.55);
 }
 .catalog-property {
     width: 20%;
@@ -366,12 +371,14 @@ a:focus {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 20px;
 }
 .btn-catalog-buy .main-button-catalog:hover {
     color: #000;
 }
 .table-property {
     margin-bottom: 50px;
+    margin-left: 20px;
 }
 .delivery-image-form {
     background-color: #fff;
@@ -536,7 +543,6 @@ button.close {
 }
 .button-close-modal a {
     color: #000;
-    font-weight: bold;
     padding: 10px 20px;
     border: 2px solid transparent;
     border-image: linear-gradient(#f4ce76 , #caa15e);
