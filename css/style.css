@@ -196,6 +196,7 @@ a:focus {
 .image-banners-width-flex {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 50px;
 }
 .banner-img-block img {
     width: 100%;
@@ -464,7 +465,7 @@ a:focus {
 .row-goods-block {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .goods-modal-img img {
     width: 100%;
@@ -478,7 +479,7 @@ a:focus {
     margin-bottom: 10px;
 }
 .goods-information-block {
-    width: 81%;
+    width: 83%;
 }
 .goods-property-modal {
     display: flex;
@@ -486,6 +487,7 @@ a:focus {
 }
 .goods-property-modal td {
     padding: 5px 30px 5px 0;
+    width: 114px;
 }
 .send-modal-flex {
     display: flex;
@@ -496,26 +498,25 @@ a:focus {
     padding: 15px;
 }
 .send-modal-info {
-    background-color: #240909;
+    background-image: url("../images/tree-order.png");
+    background-size: 100%;
     color: #fff;
     width: 30%;
     padding: 30px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
 }
 .modal-body {
     background-color: #fff;
-    border-radius: 10px;
-    margin: -3px;
     padding: 0;
 }
 .modal-content {
     background-color: transparent;
-    border: 35px solid rgba(253, 195, 46, 0.7);
-    border-radius: 10px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(#f4ce76 , #caa15e);
+    border-image-slice: 1;
 }
 button.close {
-    position: relative;
+    position: absolute;
+    right: 5px;
     z-index: 1;
     font-size: 26px;
     color: #000;
@@ -524,6 +525,8 @@ button.close {
 }
 .sum-modal-price {
     font-weight: bold;
+    width: 80px;
+    text-align: right;
 }
 .price-sum {
     display: flex;
@@ -533,18 +536,19 @@ button.close {
 }
 .button-close-modal a {
     color: #000;
-    border: 2px solid #fdc32e;
     font-weight: bold;
     padding: 10px 20px;
-    border-radius: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(#f4ce76 , #caa15e);
+    border-image-slice: 1;
 }
 .button-close-modal a:hover {
-    background-color: #fdc32e;
+    background: linear-gradient(#f4ce76 , #caa15e);
 }
 .send-modal-title {
     font-weight: bold;
     font-size: 22px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .send-modal-info input {
     width: 100%;
@@ -555,16 +559,7 @@ button.close {
     padding: 15px 10px;
     margin-bottom: 15px;
     color: #000;
-}
-.send-title-block {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-}
-.send-title {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    background-color: #efefef;
 }
 .cart-order-block {
     position: relative;
@@ -582,6 +577,11 @@ button.close {
 }
 .send-modal-info .main-button-catalog {
     display: block;
+    background: linear-gradient(#f4ce76 , #caa15e);
+    color: #fff;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .catalog-items-mobile {
     display: none;
@@ -681,6 +681,7 @@ button.close {
     width: 100%;
     font-weight: bold;
     font-size: 20px;
+    color: #fff;
 }
 .shares-item-block img {
     width: 100%;
@@ -769,6 +770,49 @@ button.close {
 #catalog {
     font-size: 40px;
     margin-bottom: 80px;
+}
+.shares-center-right {
+    text-align: right;
+}
+.number {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.number input {
+    width: 40px;
+    text-align: center;
+    border: none;
+}
+.minus, .plus {
+    font-size: 12px;
+    border: 1px solid #e2b969;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.order-delete-btn {
+    background-color: transparent;
+    border: 1px solid #e2b969;
+    border-radius: 4px;
+    width: 100%;
+}
+.card-title-sum:after {
+    content: 'р.';
+}
+.send-modal-info .main-button-catalog {
+    text-align: center;
+}
+.send-modal-info .main-button {
+    margin-top: 20px;
+}
+.send-modal-title img {
+    width: 124.5%;
+    margin-left: -30px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
