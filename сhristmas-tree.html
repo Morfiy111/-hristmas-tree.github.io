@@ -292,237 +292,691 @@
 </div>
 <section class="border-line-block">
     <div class="container">
-        <div class="tabs-catalog-link">
-            <a href="#">
-                <img src="images/catalog-icon.png" alt="">
-                <span>Выбрать ёлку</span>
-            </a>
-            <a href="#">
-                <img src="images/catalog-icon2.png" alt="">
-                <span>Выбрать украшение</span>
-            </a>
-            <a href="#">
-                <img src="images/catalog-icon3.png" alt="">
-                <span>Выбрать гирлянду</span>
-            </a>
-        </div>
-        <div class="catalog-flex-block">
-            <div class="catalog-gallery">
-                <div class="fotorama" data-autoplay="false" data-width="100%"  data-fullscreenIcon="false">
-                    <img src="images/goods1.png" />
-                    <img src="images/goods1.png" />
-                    <img src="images/goods1.png" />
-                </div>
-            </div>
-            <div class="catalog-items-block">
-                <div class="size-title">Выберите размер, см</div>
-                <div class="tabs-size-block">
-                    <form class="form">
-                        <div class="rabs btn-toggle" data-toggle="buttons">
-                            <label class="btn btn-default active">
-                                <input type="radio" name="options" value="option1">60
-                            </label>
-                            <label class="btn btn-default">
-                                <input type="radio" name="options" value="option2" checked="">90
-                            </label>
-                            <label class="btn btn-default">
-                                <input type="radio" name="options" value="option3" checked="">120
-                            </label>
-                            <label class="btn btn-default">
-                                <input type="radio" name="options" value="option3" checked="">150
-                            </label>
-                            <label class="btn btn-default">
-                                <input type="radio" name="options" value="option3" checked="">180
-                            </label>
-                            <label class="btn btn-default">
-                                <input type="radio" name="options" value="option3" checked="">210
-                            </label>
-                            <label class="btn btn-default">
-                                <input type="radio" name="options" value="option3" checked="">240
-                            </label>
-                            <label class="btn btn-default">
-                                <input type="radio" name="options" value="option3" checked="">270
-                            </label>
-                            <label class="btn btn-default">
-                                <input type="radio" name="options" value="option3" checked="">300
-                            </label>
+        <ul class="tabs-catalog-link nav nav-tabs">
+            <li class="active">
+                <a data-toggle="tab" href="#panel1">
+                    <img src="images/catalog-icon.png" alt="">
+                    <span>Выбрать ёлку</span>
+                </a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#panel2">
+                    <img src="images/catalog-icon2.png" alt="">
+                    <span>Выбрать украшение</span>
+                </a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#panel3">
+                    <img src="images/catalog-icon3.png" alt="">
+                    <span>Выбрать гирлянду</span>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="panel1" class="tab-pane fade in active">
+                <div class="catalog-flex-block">
+                    <div class="catalog-gallery">
+                        <div class="fotorama" data-autoplay="false" data-width="100%"  data-fullscreenIcon="false">
+                            <img src="images/goods1.png" />
+                            <img src="images/goods1.png" />
+                            <img src="images/goods1.png" />
                         </div>
-                    </form>
-                </div>
-                <div class="catalog-items-title">Зелёные ёлки</div>
-                <div class="flex-catalog-items-min">
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
                     </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
+                    <div class="catalog-items-block">
+                        <div class="size-title">Выберите размер, см</div>
+                        <div class="tabs-size-block">
+                            <form class="form">
+                                <div class="rabs btn-toggle" data-toggle="buttons">
+                                    <label class="btn btn-default active">
+                                        <input type="radio" name="options" value="option1">60
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option2" checked="">90
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">120
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">150
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">180
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">210
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">240
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">270
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">300
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="catalog-items-title">Зелёные ёлки</div>
+                        <div class="flex-catalog-items-min">
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                        </div>
+                        <div class="catalog-items-title">Белые ёлки</div>
+                        <div class="flex-catalog-items-min">
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                </div>
-                <div class="catalog-items-title">Белые ёлки</div>
-                <div class="flex-catalog-items-min">
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
-                    </div>
-                    <div class="catalog-items-min">
-                        <a href="#"><img src="images/goods1.png" /></a>
+                    <div class="catalog-property">
+                        <div class="price-block-stage hidden-xs">
+                            5 000р.
+                        </div>
+                        <div class="price-block-stage-mobile hidden-sm hidden-md hidden-lg">
+                            <div class="price-block-stage">
+                                5 000р.
+                            </div>
+                            <div class="main-button btn-catalog-buy">
+                                <a href="#" class="main-button-catalog">В КОРЗИНУ <img src="images/cart.png" alt=""></a>
+                            </div>
+                        </div>
+                        <table border="0" cellpadding="1" cellspacing="1" style="width:100%;" class="table-property hidden-xs">
+                            <tbody>
+                            <tr>
+                                <td>Высота</td>
+                                <td><strong>90 см</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Артикул</td>
+                                <td><strong>00 00</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Габариты</td>
+                                <td><strong>90х36х20</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Вес</td>
+                                <td><strong>2,4 кг</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table border="0" cellpadding="1" cellspacing="1" style="width:100%;" class="table-property hidden-sm hidden-md hidden-lg">
+                            <tbody>
+                            <tr>
+                                <td>Артикул</td>
+                                <td><strong>00 00</strong></td>
+                                <td>Объем</td>
+                                <td><strong>37 л.</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Габариты</td>
+                                <td><strong>55х36х20</strong></td>
+                                <td>Вес</td>
+                                <td><strong>2.4 кг.</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="main-button btn-catalog-buy hidden-xs">
+                            <a href="#" class="main-button-catalog">В КОРЗИНУ</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="catalog-property">
-                <div class="price-block-stage hidden-xs">
-                    5 000р.
-                </div>
-                <div class="price-block-stage-mobile hidden-sm hidden-md hidden-lg">
-                    <div class="price-block-stage">
-                        5 000р.
+            <div id="panel2" class="tab-pane fade in active">
+                <div class="catalog-flex-block">
+                    <div class="catalog-gallery">
+                        <div class="fotorama" data-autoplay="false" data-width="100%"  data-fullscreenIcon="false">
+                            <img src="images/goods1.png" />
+                            <img src="images/goods1.png" />
+                            <img src="images/goods1.png" />
+                        </div>
                     </div>
-                    <div class="main-button btn-catalog-buy">
-                        <a href="#" class="main-button-catalog">В КОРЗИНУ <img src="images/cart.png" alt=""></a>
+                    <div class="catalog-items-block">
+                        <div class="size-title">Выберите размер, см</div>
+                        <div class="tabs-size-block">
+                            <form class="form">
+                                <div class="rabs btn-toggle" data-toggle="buttons">
+                                    <label class="btn btn-default active">
+                                        <input type="radio" name="options" value="option1">60
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option2" checked="">90
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">120
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">150
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">180
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">210
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">240
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">270
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">300
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="catalog-items-title">Зелёные украшения</div>
+                        <div class="flex-catalog-items-min">
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                        </div>
+                        <div class="catalog-items-title">Белые украшения</div>
+                        <div class="flex-catalog-items-min">
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog-property">
+                        <div class="price-block-stage hidden-xs">
+                            5 000р.
+                        </div>
+                        <div class="price-block-stage-mobile hidden-sm hidden-md hidden-lg">
+                            <div class="price-block-stage">
+                                5 000р.
+                            </div>
+                            <div class="main-button btn-catalog-buy">
+                                <a href="#" class="main-button-catalog">В КОРЗИНУ <img src="images/cart.png" alt=""></a>
+                            </div>
+                        </div>
+                        <table border="0" cellpadding="1" cellspacing="1" style="width:100%;" class="table-property hidden-xs">
+                            <tbody>
+                            <tr>
+                                <td>Высота</td>
+                                <td><strong>90 см</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Артикул</td>
+                                <td><strong>00 00</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Габариты</td>
+                                <td><strong>90х36х20</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Вес</td>
+                                <td><strong>2,4 кг</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table border="0" cellpadding="1" cellspacing="1" style="width:100%;" class="table-property hidden-sm hidden-md hidden-lg">
+                            <tbody>
+                            <tr>
+                                <td>Артикул</td>
+                                <td><strong>00 00</strong></td>
+                                <td>Объем</td>
+                                <td><strong>37 л.</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Габариты</td>
+                                <td><strong>55х36х20</strong></td>
+                                <td>Вес</td>
+                                <td><strong>2.4 кг.</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="main-button btn-catalog-buy hidden-xs">
+                            <a href="#" class="main-button-catalog">В КОРЗИНУ</a>
+                        </div>
                     </div>
                 </div>
-                <table border="0" cellpadding="1" cellspacing="1" style="width:100%;" class="table-property hidden-xs">
-                    <tbody>
-                    <tr>
-                        <td>Высота</td>
-                        <td><strong>90 см</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Артикул</td>
-                        <td><strong>00 00</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Габариты</td>
-                        <td><strong>90х36х20</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Вес</td>
-                        <td><strong>2,4 кг</strong></td>
-                    </tr>
-                    </tbody>
-                </table>
-                <table border="0" cellpadding="1" cellspacing="1" style="width:100%;" class="table-property hidden-sm hidden-md hidden-lg">
-                    <tbody>
-                    <tr>
-                        <td>Артикул</td>
-                        <td><strong>00 00</strong></td>
-                        <td>Объем</td>
-                        <td><strong>37 л.</strong></td>
-                    </tr>
-                    <tr>
-                        <td>Габариты</td>
-                        <td><strong>55х36х20</strong></td>
-                        <td>Вес</td>
-                        <td><strong>2.4 кг.</strong></td>
-                    </tr>
-                    </tbody>
-                </table>
-                <div class="main-button btn-catalog-buy hidden-xs">
-                    <a href="#" class="main-button-catalog">В КОРЗИНУ</a>
+            </div>
+            <div id="panel3" class="tab-pane fade in active">
+                <div class="catalog-flex-block">
+                    <div class="catalog-gallery">
+                        <div class="fotorama" data-autoplay="false" data-width="100%"  data-fullscreenIcon="false">
+                            <img src="images/goods1.png" />
+                            <img src="images/goods1.png" />
+                            <img src="images/goods1.png" />
+                        </div>
+                    </div>
+                    <div class="catalog-items-block">
+                        <div class="size-title">Выберите размер, см</div>
+                        <div class="tabs-size-block">
+                            <form class="form">
+                                <div class="rabs btn-toggle" data-toggle="buttons">
+                                    <label class="btn btn-default active">
+                                        <input type="radio" name="options" value="option1">60
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option2" checked="">90
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">120
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">150
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">180
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">210
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">240
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">270
+                                    </label>
+                                    <label class="btn btn-default">
+                                        <input type="radio" name="options" value="option3" checked="">300
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="catalog-items-title">Зелёные гирлянды</div>
+                        <div class="flex-catalog-items-min">
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                        </div>
+                        <div class="catalog-items-title">Белые гирлянды</div>
+                        <div class="flex-catalog-items-min">
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                            <div class="catalog-items-min">
+                                <a href="#"><img src="images/goods1.png" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog-property">
+                        <div class="price-block-stage hidden-xs">
+                            5 000р.
+                        </div>
+                        <div class="price-block-stage-mobile hidden-sm hidden-md hidden-lg">
+                            <div class="price-block-stage">
+                                5 000р.
+                            </div>
+                            <div class="main-button btn-catalog-buy">
+                                <a href="#" class="main-button-catalog">В КОРЗИНУ <img src="images/cart.png" alt=""></a>
+                            </div>
+                        </div>
+                        <table border="0" cellpadding="1" cellspacing="1" style="width:100%;" class="table-property hidden-xs">
+                            <tbody>
+                            <tr>
+                                <td>Высота</td>
+                                <td><strong>90 см</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Артикул</td>
+                                <td><strong>00 00</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Габариты</td>
+                                <td><strong>90х36х20</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Вес</td>
+                                <td><strong>2,4 кг</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table border="0" cellpadding="1" cellspacing="1" style="width:100%;" class="table-property hidden-sm hidden-md hidden-lg">
+                            <tbody>
+                            <tr>
+                                <td>Артикул</td>
+                                <td><strong>00 00</strong></td>
+                                <td>Объем</td>
+                                <td><strong>37 л.</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Габариты</td>
+                                <td><strong>55х36х20</strong></td>
+                                <td>Вес</td>
+                                <td><strong>2.4 кг.</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="main-button btn-catalog-buy hidden-xs">
+                            <a href="#" class="main-button-catalog">В КОРЗИНУ</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

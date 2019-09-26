@@ -230,6 +230,7 @@ a:focus {
 }
 .shares-center {
     text-align: center;
+    margin-top: 50px;
 }
 .title-after-img {
     position: relative;
@@ -250,6 +251,16 @@ a:focus {
     margin: 40px 0 40px 0;
     font-size: 28px;
     display: inline-block;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: none;
+}
+.nav-tabs > li > a:hover {
+    border-color: transparent;
+    background-color: transparent;
 }
 .fotorama__thumbs_previews {
     background-color: transparent;
@@ -734,13 +745,13 @@ button.close {
 }
 .video-text {
     position: absolute;
-    left: -120px;
+    left: -160px;
     transform: rotate(-90deg);
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    bottom: 38%;
+    bottom: 42%;
 }
 .tabs-catalog-link {
     display: flex;
