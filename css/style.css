@@ -77,8 +77,8 @@ a:focus {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: -11px;
-    right: -16px;
+    top: 6px;
+    right: -12px;
 }
 .cart-image-number {
     position: relative;
@@ -258,6 +258,7 @@ a:focus {
     display: flex;
     justify-content: space-between;
     box-shadow: 2px -2px 33px 0px rgba(150, 150, 150, 0.55);
+    background-color: #fff;
 }
 .catalog-gallery {
     width: 22%;
@@ -755,8 +756,7 @@ button.close {
 }
 .footer-img-top {
     width: 100%;
-    position: absolute;
-    top: -137px;
+    margin-top: -130px;
 }
 .footer-img-bottom {
     width: 100%;
