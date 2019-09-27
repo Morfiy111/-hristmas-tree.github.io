@@ -879,8 +879,8 @@ button.close {
     }
 }
 @media(max-width: 1199px) {
-    .center-image-banner img {
-        height: 768px;
+    .tree-banner-block img {
+        height:500px;
     }
 }
 @media(max-width: 991px) {
