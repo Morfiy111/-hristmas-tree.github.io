@@ -948,33 +948,19 @@ button.close {
         bottom: 80px;
         right: 115px;
     }
+    .send-modal-title img {
+        width: 129.7%;
+    }
 }
 @media(max-width: 991px) {
     .shares-block-flex {
         flex-wrap: wrap;
         align-items: normal;
         justify-content: space-between;
+        margin: 0;
     }
     .hand-back {
         padding-left: 0%;
-    }
-    .catalog-items-block {
-        display: none;
-    }
-    .catalog-gallery {
-        width: 60%;
-    }
-    .catalog-property {
-        width: 40%;
-    }
-    .catalog-items-mobile {
-        display: block;
-    }
-    .catalog-items-mobile {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        padding-bottom: 40px;
     }
     .flex-catalog-items-title-block {
         width: 48%;
@@ -1053,7 +1039,7 @@ button.close {
         width: 80%;
     }
     .footer-logo img {
-        width: 125px;
+        width: 185px;
     }
     .footer-btn button {
         padding: 5px 7px;
@@ -1091,6 +1077,76 @@ button.close {
     }
     .contact-col-map {
         width: 100%;
+    }
+    .header-work-time-block, .header-address-block, .header-phone {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .header-icon {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .header-logo {
+        width: auto;
+    }
+    .header-page {
+        padding: 30px 0;
+    }
+    .header-flex-block {
+        padding-top: 0;
+    }
+    .rabs label {
+        font-size: 16px;
+        padding: 4px 10px;
+    }
+    .delivery-list-block {
+        bottom: 70px;
+        right: 70px;
+    }
+    .shares-image-santa img {
+        width: 100%;
+    }
+    .shares-image-santa {
+        width: 30%;
+    }
+    .shares-link-flex-block {
+        width: 69%;
+    }
+    .shares-item-block {
+        margin-left: 10px;
+        width: 46%;
+    }
+    .shares-item-title {
+        bottom: 30px;
+    }
+    .tree-banner-block img {
+        height: auto;
+        width: 100%;
+    }
+    .btn-catalog-buy .main-button-catalog {
+        white-space: nowrap;
+    }
+    .video-flex-block {
+        width: 85%;
+    }
+    .absolut-trees {
+        top: 14px;
+        left: -7px;
+        height: 416px;
+    }
+    .image-responsive {
+        width: 81%;
+    }
+    .main-button-obj {
+        font-size: 12px;
+    }
+    .main-button-obj {
+        right: 20px;
+        bottom: 20px;
+    }
+    .main-button-obj-center {
+        right: 14%;
     }
 }
 @media(max-width: 767px) {
