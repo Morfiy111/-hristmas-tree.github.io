@@ -994,9 +994,6 @@ button.close {
         left: 0;
         top: 190px;
     }
-    .navbar-default {
-        top: 111px;
-    }
     .flex-advantages {
         flex-wrap: wrap;
         justify-content: center;
@@ -1055,16 +1052,16 @@ button.close {
         width: 11%;
     }
     .send-modal-info {
-        width: 40%;
+        width: 34%;
     }
     .send-modal-goods {
-        width: 60%;
+        width: 66%;
     }
     .goods-information-block {
         width: 86%;
     }
     .goods-property-modal td {
-        padding: 5px 20px 5px 0;
+        padding: 5px 10px 5px 0;
     }
     .footer-logo {
         bottom: 40px;
@@ -1131,9 +1128,9 @@ button.close {
         width: 85%;
     }
     .absolut-trees {
-        top: 14px;
+        top: 50px;
         left: -7px;
-        height: 416px;
+        height: 400px;
     }
     .image-responsive {
         width: 81%;
@@ -1147,6 +1144,30 @@ button.close {
     }
     .main-button-obj-center {
         right: 14%;
+    }
+    .send-modal-info {
+        background-size: auto 100%;
+    }
+    .send-modal-title img {
+        width: 126%;
+    }
+    .send-modal-title img {
+        width: 132%;
+    }
+    .send-modal-info {
+        padding: 10px;
+    }
+    .send-modal-title img {
+        width: 109%;
+        margin-left: -10px;
+    }
+    .card-title-sum {
+        width: 100px;
+        text-align: right;
+    }
+    .button-close-modal a {
+        white-space: nowrap;
+        margin-right: 15px;
     }
 }
 @media(max-width: 767px) {
