@@ -260,6 +260,7 @@ a:focus {
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     border: none;
+    color: #e2b969;
 }
 .nav-tabs > li > a:hover {
     border-color: transparent;
@@ -843,6 +844,22 @@ button.close {
 }
 .tree-banner-block {
     margin-bottom: 40px;
+}
+.tabs-catalog-link .active .image-tab-active {
+    display: block;
+}
+.tabs-catalog-link .active .image-tab-grey {
+    display: none;
+}
+.tabs-catalog-link .image-tab-grey {
+    display: block;
+}
+.tabs-catalog-link .image-tab-active{
+    display: none;
+}
+.tabs-catalog-link li a {
+    text-align: center;
+    display: flex;
 }
 @media (min-width: 768px) {
     .navbar-nav {
