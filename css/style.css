@@ -870,6 +870,10 @@ button.close {
 .catalog-property .table-property {
     width: 100%;
 }
+.goods-scroll {
+    overflow: auto;
+    height: 370px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         width: 100%;
