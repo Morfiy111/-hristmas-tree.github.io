@@ -1333,35 +1333,16 @@ button.close {
 
     .size-title {
         font-size: 12px;
-        float: left;
+        float: none;
         position: relative;
-        top: 12px;
     }
-
+    .form .rabs {
+        flex-wrap: wrap;
+    }
     .rabs label {
         font-size: 12px;
+        border: 2px solid transparent;
     }
-
-    .rabs .btn-default:first-child {
-        width: 90px;
-    }
-
-    .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary, .btn-default.active, .btn-default.active:hover, .btn-primary.active:hover, .btn-primary:hover, .btn-default:hover, .btn-default.active:focus, .btn-default:active:focus, .btn-primary:active:hover {
-        border: 2px solid #fdc32e;
-    }
-
-    .rabs label {
-        border: 2px solid #fdc32e;
-        padding: 0px 12px;
-        margin: 0 4px;
-    }
-
-    .price-block-stage-mobile {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
     .price-block-stage {
         font-size: 18px;
     }
