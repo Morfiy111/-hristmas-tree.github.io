@@ -1,3 +1,21 @@
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:0,
+    nav:false,
+    dots: true,
+    autoplay:false,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('autoplay.play.owl',[3000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('autoplay.stop.owl')
+})
+
 $(document).ready(function(){
     $(".btn-banners-block a").on("click", function () {
         event.preventDefault();
@@ -51,3 +69,4 @@ $(document).ready(function () {
         $(this).toggleClass("active");
     });
 });
+
