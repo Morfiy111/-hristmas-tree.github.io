@@ -957,7 +957,13 @@ button.close {
         right: 115px;
     }
     .send-modal-title img {
-        width: 129.7%;
+        width: 124.7%;
+    }
+    .send-modal-info {
+        width: 35%;
+    }
+    .send-modal-goods {
+        width: 65%;
     }
 }
 @media(max-width: 991px) {
@@ -1162,7 +1168,7 @@ button.close {
         padding: 10px;
     }
     .send-modal-title img {
-        width: 109%;
+        width: 107%;
         margin-left: -10px;
     }
     .card-title-sum {
@@ -1653,5 +1659,8 @@ button.close {
         right: 0px;
         top: 4px;
         position: absolute;
+    }
+    .send-modal-title img {
+        width: 103%;
     }
 }
