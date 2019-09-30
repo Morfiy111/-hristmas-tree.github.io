@@ -1136,8 +1136,9 @@ button.close {
         font-size: 12px;
     }
     .main-button-obj {
-        right: 20px;
-        bottom: 20px;
+        right: auto;
+        bottom: 30px;
+        font-size: 16px;
     }
     .main-button-obj-center {
         right: 14%;
@@ -1409,15 +1410,6 @@ button.close {
         font-size: 12px;
     }
 
-    .flex-advantages .advantages-item .description-advantages {
-        right: 10%;
-        top: -54px;
-    }
-
-    .advantages-item:nth-child(4) .description-advantages .description-relative, .advantages-item:nth-child(5) .description-advantages .description-relative {
-        top: -16px;
-    }
-
     .flex-advantages {
         margin: 100px 0 20px 0;
     }
@@ -1583,20 +1575,31 @@ button.close {
         width: 100%;
         text-align: center;
         position: absolute;
-        top: 0px;
+        top: -46px;
     }
     .owl-dot {
         width: 10px;
         height: 10px;
-        background-color: #333;
+        background-color: #fff;
+        border: 2px solid #e2b969;
         border-radius: 10em;
         display: inline-block;
         margin: 10px;
         transition: background-color .5s ease, transform .5s ease;
     }
     .owl-dot.active {
-        background-color: #fff;
-        border: 2px solid #333;
+        background-color: #e2b969;
+        border: 2px solid #e2b969;
         transform: scale(1.5);
+    }
+    .owl-carousel {
+        margin-top: 40px;
+    }
+    .btn-banners-block {
+        width: 100%;
+        text-align: center;
+    }
+    .main-button-obj {
+        right: 34%;
     }
 }
