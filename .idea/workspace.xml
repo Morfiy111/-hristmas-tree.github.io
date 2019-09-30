@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="1580" column="24" selection-start-line="1580" selection-start-column="24" selection-end-line="1580" selection-end-column="24" />
+            <state relative-caret-position="317">
+              <caret line="1593" column="18" selection-start-line="1593" selection-start-column="18" selection-end-line="1593" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="424" column="85" selection-start-line="424" selection-start-column="85" selection-end-line="424" selection-end-column="85" />
+            <state relative-caret-position="231">
+              <caret line="1067" column="43" lean-forward="true" selection-start-line="1067" selection-start-column="43" selection-end-line="1067" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -81,8 +81,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/сhristmas-tree.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/сhristmas-tree.html" />
       </list>
     </option>
   </component>
@@ -98,6 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,12 +120,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kanunnikov" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-keaz" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -158,18 +158,19 @@
       <workItem from="1569562364085" duration="6059000" />
       <workItem from="1569579037738" duration="9400000" />
       <workItem from="1569821967566" duration="9724000" />
-      <workItem from="1569837481610" duration="4148000" />
+      <workItem from="1569837481610" duration="4311000" />
+      <workItem from="1569843267865" duration="282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76964000" />
+    <option name="totallyTimeSpent" value="77409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="117" width="1371" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28397873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28853455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,17 +209,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="424" column="85" selection-start-line="424" selection-start-column="85" selection-end-line="424" selection-end-column="85" />
+        <state relative-caret-position="317">
+          <caret line="1593" column="18" selection-start-line="1593" selection-start-column="18" selection-end-line="1593" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="1580" column="24" selection-start-line="1580" selection-start-column="24" selection-end-line="1580" selection-end-column="24" />
+        <state relative-caret-position="231">
+          <caret line="1067" column="43" lean-forward="true" selection-start-line="1067" selection-start-column="43" selection-end-line="1067" selection-end-column="43" />
         </state>
       </provider>
     </entry>

@@ -1580,6 +1580,19 @@ button.close {
     .catalog-flex-block {
         box-shadow: none;
     }
+    .delivery-list-block {
+        position: initial;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .delivery-block-image {
+        margin-bottom: 20px;
+    }
+    .deliery-list-item {
+        width: 40%;
+    }
     body {
         background-image: none;
     }
