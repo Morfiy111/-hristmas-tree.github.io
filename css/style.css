@@ -737,7 +737,7 @@ button.close {
     width: 190px;
 }
 .video-flex-block {
-    width: 65%;
+    width: 50%;
     position: relative;
 }
 .video-block {
@@ -981,12 +981,6 @@ button.close {
         font-size: 14px;
         padding-top: 10px;
     }
-    .cart-image-number {
-        margin-right: 20px;
-    }
-    .header-logo {
-        margin-top: -18px;
-    }
     .container-relative {
         padding: 0;
     }
@@ -1128,7 +1122,7 @@ button.close {
         white-space: nowrap;
     }
     .video-flex-block {
-        width: 85%;
+        width: 80%;
     }
     .absolut-trees {
         top: 50px;
@@ -1177,89 +1171,85 @@ button.close {
     .footer-flex-block {
         flex-wrap: wrap;
     }
+
     .description-banner-block h1 {
         padding: 0 20px;
         font-size: 24px;
         margin-bottom: 40px;
     }
+
     .description-banner-block {
         width: 100%;
         top: 170px;
     }
+
     .main-button-catalog {
         font-size: 16px;
     }
+
     .header-logo img {
-        width: 100px;
-    }
-    .navbar-default {
-        position: inherit;
-        width: 33%;
-    }
-    .header-cart {
-        width: 33%;
-    }
-    .cart-img-sum {
-        font-size: 10px;
-    }
-    .cart-header-btn img {
-        width: 22px;
-    }
-    .cart-absolut-number {
-        width: 16px;
-        height: 16px;
-        font-size: 12px;
-    }
-    .header-cart-buy a {
-        padding: 2px 7px;
-        font-size: 10px;
+        width: 160px;
     }
 
-    .header-logo {
-        margin-top: -15px;
+    .navbar-default {
+        position: inherit;
+        width: 50%;
+        text-align: right;
     }
+
+    .header-page {
+        padding: 10px 0;
+    }
+
     .header-cart {
-        align-items: flex-end;
-        padding-left: 13px;
+        align-items: center;
+        padding-left: 0;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
     }
-    .cart-image-number {
-        margin-right: 10px;
-    }
+
     .cart-absolut-number {
         right: -10px;
         top: -6px;
     }
+
     .container-relative {
         padding: 0 15px;
     }
+
     .navbar-toggle {
         margin: 0;
     }
+
     .navbar-toggle {
         float: none;
     }
+
     .navbar-default .navbar-toggle {
         border: none;
         margin-left: 10px;
     }
+
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
         background-color: transparent;
     }
+
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #fdc32e;
+        background: linear-gradient(to right, #fcab48, #b27f41);
     }
 
     .navbar-toggle .icon-bar {
-        width: 30px;
-        height: 5px;
+        width: 50px;
+        height: 6px;
     }
 
     .header-flex-block {
-        padding-top: 10px;
+        flex-wrap: wrap;
     }
 
-    .header-flex-block {
-        align-items: flex-start;
+    .header-logo {
+        width: 50%;
     }
 
     .cart-sum-block {
@@ -1272,6 +1262,14 @@ button.close {
 
     .navbar-default .navbar-collapse {
         border: none;
+        width: 100%;
+        left: 0;
+        top: 115px;
+        text-align: center;
+    }
+
+    .navbar-default .navbar-nav > .active a::after {
+        background-image: none;
     }
 
     .navbar-collapse {
@@ -1279,7 +1277,12 @@ button.close {
     }
 
     .navbar-nav {
-        column-count: 2;
+        margin: 0;
+        column-count: 1;
+        width: 100%;
+        background-color: #fff;
+        z-index: 11122;
+        position: relative;
     }
 
     .suitcase-certificate-title h2 {
@@ -1312,6 +1315,7 @@ button.close {
     .suitcase-flex {
         padding-bottom: 10px;
     }
+
     .catalog-flex-block {
         flex-wrap: wrap;
     }
@@ -1365,40 +1369,51 @@ button.close {
         font-size: 12px;
         padding: 10px;
     }
+
     .btn-catalog-buy .main-button-catalog img {
         width: 20px;
     }
+
     .price-block-stage {
         width: 44%;
     }
+
     .price-block-stage-mobile .btn-catalog-buy {
         width: 48%;
     }
+
     .price-block-stage img {
         width: 42px;
         top: 2px;
         right: -24px;
     }
+
     .table-property td {
         padding: 7px 0;
     }
+
     .flex-catalog-items-title-block {
         width: 100%;
     }
+
     .catalog-items-title {
         text-align: center;
     }
+
     .advantages-item {
         width: 42%;
         margin-bottom: 50px;
     }
+
     .description-relative {
         font-size: 12px;
     }
+
     .flex-advantages .advantages-item .description-advantages {
         right: 10%;
         top: -54px;
     }
+
     .advantages-item:nth-child(4) .description-advantages .description-relative, .advantages-item:nth-child(5) .description-advantages .description-relative {
         top: -16px;
     }
@@ -1440,36 +1455,45 @@ button.close {
         margin-bottom: 15px;
         padding-bottom: 10px;
     }
+
     .footer-address {
         width: 100%;
         font-size: 14px;
         display: flex;
         flex-direction: column;
     }
+
     .social-links {
         margin-bottom: 0;
     }
+
     .footer-social {
         display: flex;
         align-items: center;
     }
+
     .copyright-block {
         font-size: 10px;
     }
+
     .send-modal-flex {
         flex-direction: column;
     }
+
     .send-modal-goods {
         width: 100%;
         padding: 15px 6px;
     }
+
     .send-modal-info {
         width: 100%;
     }
+
     .cart-order-block {
         top: 0;
         margin-right: 10px;
     }
+
     .send-title {
         font-size: 16px;
     }
@@ -1477,42 +1501,54 @@ button.close {
     .send-title-block {
         justify-content: space-between;
     }
+
     .modal-content {
         border: 15px solid rgba(253, 195, 46, 0.7);
     }
+
     .modal-dialog {
         width: 94%;
     }
+
     .goods-property-modal-title {
         font-size: 16px;
     }
+
     .goods-property-modal {
         font-size: 12px;
     }
+
     .goods-property-modal table {
         width: 90%;
     }
+
     .goods-property-modal td {
         padding: 5px 5px 5px 0;
     }
+
     .modal-goods-price {
         white-space: nowrap;
         padding: 5px 0;
     }
+
     .modal-goods-number {
         padding: 5px 0;
     }
+
     .button-close-modal a {
         font-size: 12px;
         padding: 6px 10px;
     }
+
     .price-sum {
         font-size: 12px;
     }
+
     .send-modal-title {
         font-size: 16px;
         margin-bottom: 20px;
     }
+
     .share-page-block {
         flex-wrap: wrap;
     }
@@ -1521,5 +1557,26 @@ button.close {
     }
     .banner-description {
         padding: 0 20px;
+    }
+    .navbar-toggle .icon-bar:nth-of-type(2) {
+        top: 1px;
+    }
+    .navbar-toggle .icon-bar:nth-of-type(3) {
+        top: 2px;
+    }
+    .navbar-toggle .icon-bar {
+        position: relative;
+        transition: all 200ms ease-in-out;
+    }
+    .navbar-toggle.active .icon-bar:nth-of-type(1) {
+        top: 14px;
+        transform: rotate(45deg);
+    }
+    .navbar-toggle.active .icon-bar:nth-of-type(2) {
+        background: transparent;
+    }
+    .navbar-toggle.active .icon-bar:nth-of-type(3) {
+        top: -6px;
+        transform: rotate(-45deg);
     }
 }
