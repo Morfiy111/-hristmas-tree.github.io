@@ -482,6 +482,7 @@ a:focus {
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    position: relative;
 }
 .goods-modal-img img {
     width: 100%;
@@ -1630,7 +1631,27 @@ button.close {
         width: 55%;
         color: #000;
     }
+    .delivery-list-block p {
+        margin-top: 20px;
+    }
     body {
         background-image: none;
+    }
+    .goods-scroll {
+        height: 270px;
+    }
+    .price-sum {
+        flex-wrap: wrap;
+    }
+    .button-close-modal {
+        text-align: center;
+    }
+    .button-close-modal a {
+        margin-right: 0;
+    }
+    .card-title-sum {
+        right: 0px;
+        top: 4px;
+        position: absolute;
     }
 }
