@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/сhristmas-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/сhristmas-tree.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +21,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="212">
@@ -40,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="182" column="84" selection-start-line="182" selection-start-column="84" selection-end-line="182" selection-end-column="84" />
+            <state relative-caret-position="171">
+              <caret line="1052" column="44" selection-start-line="1052" selection-start-column="44" selection-end-line="1052" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -81,8 +80,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/сhristmas-tree.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/сhristmas-tree.html" />
       </list>
     </option>
   </component>
@@ -160,12 +159,12 @@
       <workItem from="1569821967566" duration="9724000" />
       <workItem from="1569837481610" duration="4311000" />
       <workItem from="1569843267865" duration="299000" />
-      <workItem from="1569844183485" duration="3137000" />
+      <workItem from="1569844183485" duration="3375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80563000" />
+    <option name="totallyTimeSpent" value="80801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-48" y="96" width="1371" height="818" extended-state="0" />
@@ -210,17 +209,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="182" column="84" selection-start-line="182" selection-start-column="84" selection-end-line="182" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="1649" column="23" selection-start-line="1649" selection-start-column="23" selection-end-line="1649" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1052" column="44" selection-start-line="1052" selection-start-column="44" selection-end-line="1052" selection-end-column="44" />
         </state>
       </provider>
     </entry>
