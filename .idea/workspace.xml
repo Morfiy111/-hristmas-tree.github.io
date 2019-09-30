@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/сhristmas-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/сhristmas-tree.html" afterDir="false" />
     </list>
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="1344" column="5" selection-start-line="1344" selection-start-column="5" selection-end-line="1344" selection-end-column="5" />
+            <state relative-caret-position="287">
+              <caret line="1580" column="24" selection-start-line="1580" selection-start-column="24" selection-end-line="1580" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -43,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="407" column="44" selection-start-line="407" selection-start-column="44" selection-end-line="407" selection-end-column="44" />
+            <state relative-caret-position="216">
+              <caret line="424" column="85" selection-start-line="424" selection-start-column="85" selection-end-line="424" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -58,7 +59,6 @@
       <find>catalog-items-min</find>
       <find>обратит</find>
       <find>center-title insta-italic</find>
-      <find>Выбрать свою ёлку</find>
       <find>shares-item-block</find>
       <find>Обратите внимание на наши АКЦИИ</find>
       <find>tabs-catalog-link</find>
@@ -70,6 +70,7 @@
       <find>tree-</find>
       <find>image-banners-width-flex</find>
       <find>price-block-stage</find>
+      <find>Выбрать свою ёлку</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,8 +87,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
-    <option name="y" value="473" />
+    <option name="x" value="68" />
+    <option name="y" value="117" />
     <option name="width" value="1371" />
     <option name="height" value="818" />
   </component>
@@ -97,7 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,6 +119,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,18 +157,19 @@
       <workItem from="1569486413951" duration="14740000" />
       <workItem from="1569562364085" duration="6059000" />
       <workItem from="1569579037738" duration="9400000" />
-      <workItem from="1569821967566" duration="9557000" />
+      <workItem from="1569821967566" duration="9724000" />
+      <workItem from="1569837481610" duration="4148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72649000" />
+    <option name="totallyTimeSpent" value="76964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="473" width="1371" height="818" extended-state="0" />
+    <frame x="68" y="117" width="1371" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27942294" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28397873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,15 +210,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="407" column="44" selection-start-line="407" selection-start-column="44" selection-end-line="407" selection-end-column="44" />
+        <state relative-caret-position="216">
+          <caret line="424" column="85" selection-start-line="424" selection-start-column="85" selection-end-line="424" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="1344" column="5" selection-start-line="1344" selection-start-column="5" selection-end-line="1344" selection-end-column="5" />
+        <state relative-caret-position="287">
+          <caret line="1580" column="24" selection-start-line="1580" selection-start-column="24" selection-end-line="1580" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -181,16 +181,10 @@ a:focus {
     border-radius: 5px;
     border-image-slice: 1;
     padding: 8px 20px;
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
 }
 .main-button-obj:hover {
     background: linear-gradient(#f4ce76 , #caa15e);
     color: #000;
-}
-.main-button-obj-center {
-    right: 22%;
 }
 .btn-banners-block img {
     width: 100%;
@@ -456,7 +450,6 @@ a:focus {
     position: relative;
     padding: 60px 0;
 }
-.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default, .btn-default.active.focus {}
 .footer-flex-block a {
     color: #fff;
     display: block;
@@ -874,6 +867,17 @@ button.close {
     overflow: auto;
     height: 370px;
 }
+.button-banners-center {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+}
+.button-banners-right {
+    text-align: right;
+    right: 26px;
+    bottom: 0;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         width: 100%;
@@ -1135,10 +1139,11 @@ button.close {
     .main-button-obj {
         font-size: 12px;
     }
-    .main-button-obj {
-        right: auto;
-        bottom: 30px;
-        font-size: 16px;
+    .button-banners-center {
+        bottom: 26px;
+    }
+    .button-banners-right {
+        bottom: 0;
     }
     .main-button-obj-center {
         right: 14%;
@@ -1187,21 +1192,17 @@ button.close {
     .main-button-catalog {
         font-size: 16px;
     }
-
     .header-logo img {
         width: 160px;
     }
-
     .navbar-default {
         position: inherit;
         width: 50%;
         text-align: right;
     }
-
     .header-page {
         padding: 10px 0;
     }
-
     .header-cart {
         align-items: center;
         padding-left: 0;
@@ -1209,58 +1210,45 @@ button.close {
         flex-direction: row;
         justify-content: space-between;
     }
-
     .cart-absolut-number {
         right: -10px;
         top: -6px;
     }
-
     .container-relative {
         padding: 0 15px;
     }
-
     .navbar-toggle {
         margin: 0;
     }
-
     .navbar-toggle {
         float: none;
     }
-
     .navbar-default .navbar-toggle {
         border: none;
         margin-left: 10px;
     }
-
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
         background-color: transparent;
     }
-
     .navbar-default .navbar-toggle .icon-bar {
         background: linear-gradient(to right, #fcab48, #b27f41);
     }
-
     .navbar-toggle .icon-bar {
         width: 50px;
         height: 6px;
     }
-
     .header-flex-block {
         flex-wrap: wrap;
     }
-
     .header-logo {
         width: 50%;
     }
-
     .cart-sum-block {
         margin-bottom: 3px;
     }
-
     .center-image-banner img {
         height: 510px;
     }
-
     .navbar-default .navbar-collapse {
         border: none;
         width: 100%;
@@ -1268,15 +1256,12 @@ button.close {
         top: 115px;
         text-align: center;
     }
-
     .navbar-default .navbar-nav > .active a::after {
         background-image: none;
     }
-
     .navbar-collapse {
         position: absolute;
     }
-
     .navbar-nav {
         margin: 0;
         column-count: 1;
@@ -1285,54 +1270,42 @@ button.close {
         z-index: 11122;
         position: relative;
     }
-
     .suitcase-certificate-title h2 {
         font-size: 20px;
     }
-
     .suitcase-certificate-desk {
         font-size: 16px;
     }
-
     .suitcase-certificate-block {
         width: 48%;
     }
-
     .suitcase-image {
         width: 48%;
     }
-
     .suitcase-certificate-block .main-button-catalog {
         font-size: 14px;
         width: 100%;
         padding: 10px;
     }
-
     .suitcase-certificate-desk {
         font-weight: bold;
         margin: 20px 0;
     }
-
     .suitcase-flex {
         padding-bottom: 10px;
     }
-
     .catalog-flex-block {
         flex-wrap: wrap;
     }
-
     .catalog-gallery {
         width: 100%;
     }
-
     .catalog-property {
         width: 100%;
         padding-left: 0;
         border: none;
     }
-
     .size-title {
-        font-size: 12px;
         float: none;
         position: relative;
     }
@@ -1340,48 +1313,41 @@ button.close {
         flex-wrap: wrap;
     }
     .rabs label {
-        font-size: 12px;
+        font-size: 16px;
         border: 2px solid transparent;
     }
     .price-block-stage {
         font-size: 18px;
     }
-
-    .btn-catalog-buy .main-button-catalog {
-        font-size: 12px;
-        padding: 10px;
-    }
-
     .btn-catalog-buy .main-button-catalog img {
         width: 20px;
     }
-
     .price-block-stage {
-        width: 44%;
+        width: 100%;
+        position: inherit;
+        margin-top: 20px;
+        display: block;
     }
-
-    .price-block-stage-mobile .btn-catalog-buy {
-        width: 48%;
+    .btn-catalog-buy .main-button-catalog {
+        margin-right: 20px;
     }
-
     .price-block-stage img {
         width: 42px;
         top: 2px;
         right: -24px;
     }
-
     .table-property td {
-        padding: 7px 0;
+        padding: 7px 20px 7px 0;
     }
-
     .flex-catalog-items-title-block {
         width: 100%;
     }
-
     .catalog-items-title {
-        text-align: center;
+        text-align: left;
     }
-
+    .catalog-items-min {
+        width: 15%;
+    }
     .advantages-item {
         width: 42%;
         margin-bottom: 50px;
@@ -1559,8 +1525,8 @@ button.close {
         top: -46px;
     }
     .owl-dot {
-        width: 10px;
-        height: 10px;
+        width: 16px;
+        height: 16px;
         background-color: #fff;
         border: 2px solid #e2b969;
         border-radius: 10em;
@@ -1571,7 +1537,6 @@ button.close {
     .owl-dot.active {
         background-color: #e2b969;
         border: 2px solid #e2b969;
-        transform: scale(1.5);
     }
     .owl-carousel {
         margin-top: 40px;
@@ -1582,5 +1547,40 @@ button.close {
     }
     .main-button-obj {
         right: 34%;
+    }
+    .button-banners-center {
+        bottom: 40px;
+    }
+    .catalog-items-block {
+        width: 100%;
+        box-shadow: none;
+    }
+    .table-property {
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .shares-image-santa {
+        width: 100%;
+    }
+    .shares-link-flex-block {
+        width: 100%;
+    }
+    .shares-item-block {
+        margin-left: 0;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .shares-center {
+        margin-top: 0;
+    }
+    .nav-tabs > li:nth-child(2) {
+        border-left: 1px solid #e2e2e2;
+        border-right: 1px solid #e2e2e2;
+    }
+    .catalog-flex-block {
+        box-shadow: none;
+    }
+    body {
+        background-image: none;
     }
 }
