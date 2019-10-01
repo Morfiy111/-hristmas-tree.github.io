@@ -927,6 +927,43 @@ button.close {
     font-size: 26px;
     margin-bottom: 30px;
 }
+.share-page-flex-title {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center;
+}
+.share-page-flex-title img {
+    width: 46px;
+    margin-right: 20px;
+}
+.shares-page-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.shares-page-flex-item {
+    width: 48%;
+    border: 3px solid transparent;
+    border-image: linear-gradient(#f4ce76 , #caa15e);
+    border-image-slice: 1;
+    padding: 50px 15px 15px 15px;
+    text-align: center;
+    position: relative;
+}
+.shares-title-page-text {
+    font-weight: bold;
+    text-align: left;
+}
+.shares-title-page-text span {
+    font-size: 20px;
+    display: block;
+}
+.shares-align-center {
+    display: inline-block;
+    position: absolute;
+    top: -24px;
+    right: 22%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         width: 100%;
