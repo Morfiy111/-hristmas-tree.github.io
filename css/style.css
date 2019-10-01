@@ -896,6 +896,37 @@ button.close {
     right: 26px;
     bottom: 0;
 }
+.shares-page-banner img {
+    width: 100%;
+}
+.shares-page-banner {
+    position: relative;
+}
+.shares-page-btn a {
+    color: #000;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(#f4ce76 , #caa15e);
+    border-image-slice: 1;
+}
+.shares-page-btn a:hover {
+    background: linear-gradient(#f4ce76 , #caa15e);
+}
+.shares-page-img img {
+    width: auto;
+}
+.shares-page-block {
+    position: absolute;
+    width: 284px;
+    top: 70px;
+    right: 11%;
+    text-align: center;
+}
+.shares-page-text {
+    font-family: 'cambria';
+    font-size: 26px;
+    margin-bottom: 30px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         width: 100%;
