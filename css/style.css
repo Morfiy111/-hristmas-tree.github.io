@@ -199,11 +199,10 @@ a:focus {
 }
 .banner-img-block img {
     width: 100%;
-    margin: 50px 0px;
+    margin: 50px 0px 0px;
 }
 .tree-banner-block img {
     max-width: 100%;
-    height: 740px;
     object-fit: cover;
     width: 100%;
 }
@@ -448,7 +447,7 @@ a:focus {
     background: linear-gradient(to right, #fcab48 , #b27f41);
     color: #fff;
     position: relative;
-    padding: 90px 0;
+    padding: 72px 0 100px;
 }
 .footer-flex-block a {
     color: #fff;
