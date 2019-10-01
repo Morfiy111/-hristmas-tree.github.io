@@ -448,7 +448,7 @@ a:focus {
     background: linear-gradient(to right, #fcab48 , #b27f41);
     color: #fff;
     position: relative;
-    padding: 60px 0;
+    padding: 90px 0;
 }
 .footer-flex-block a {
     color: #fff;
@@ -778,7 +778,7 @@ button.close {
 }
 .footer-img-top {
     width: 100%;
-    margin-top: -130px;
+    margin-top: -170px;
 }
 .footer-img-bottom {
     width: 100%;
