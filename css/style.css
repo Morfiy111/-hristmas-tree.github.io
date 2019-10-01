@@ -980,6 +980,12 @@ button.close {
     .send-modal-goods {
         width: 65%;
     }
+    .tree-banner-block {
+        margin-bottom: 0px;
+    }
+    .shares-center-right {
+        margin-bottom: 50px;
+    }
 }
 @media(max-width: 991px) {
     .shares-block-flex {
