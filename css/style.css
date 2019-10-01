@@ -267,6 +267,7 @@ a:focus {
 }
 .fotorama__thumbs_previews {
     background-color: transparent;
+    margin-top: 40px;
 }
 .catalog-items-title {
     font-weight: bold;
@@ -280,9 +281,9 @@ a:focus {
     background-color: #fff;
 }
 .catalog-gallery {
-    width: 22%;
+    width: 25%;
     box-shadow: 2px -2px 33px 0px rgba(150, 150, 150, 0.55);
-    padding: 20px 0;
+    padding: 20px 15px;
     z-index: 1;
     margin-top: -20px;
     margin-bottom: -20px;
