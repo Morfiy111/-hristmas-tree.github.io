@@ -259,6 +259,12 @@ a:focus {
     border-color: transparent;
     background-color: transparent;
 }
+.nav-tabs > li > a:hover .image-tab-grey {
+    display: none;
+}
+.nav-tabs > li > a:hover .image-tab-active {
+    display: block;
+}
 .fotorama__thumbs_previews {
     background-color: transparent;
 }
