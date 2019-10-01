@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="963" column="12" selection-start-line="963" selection-start-column="12" selection-end-line="963" selection-end-column="12" />
+            <state relative-caret-position="204">
+              <caret line="943" column="23" selection-start-line="943" selection-start-column="23" selection-end-line="943" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/share.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="238" column="16" selection-start-line="238" selection-start-column="16" selection-end-line="244" selection-end-column="22" />
+            <state relative-caret-position="86">
+              <caret line="308" column="67" selection-start-line="308" selection-start-column="42" selection-end-line="308" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -82,6 +82,7 @@
       <find>del</find>
       <find>modal-tit</find>
       <find>.nav-tabs &gt; li &gt; a:hover</find>
+      <find>shares-page-flex-item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,9 +101,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="211" />
-    <option name="y" value="315" />
+    <option name="y" value="97" />
     <option name="width" value="1371" />
-    <option name="height" value="699" />
+    <option name="height" value="917" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,15 +174,15 @@
       <workItem from="1569837481610" duration="4311000" />
       <workItem from="1569843267865" duration="299000" />
       <workItem from="1569844183485" duration="5140000" />
-      <workItem from="1569909299110" duration="14092000" />
+      <workItem from="1569909299110" duration="15333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96658000" />
+    <option name="totallyTimeSpent" value="97899000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="211" y="315" width="1371" height="699" extended-state="0" />
+    <frame x="211" y="97" width="1371" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29764616" />
@@ -197,7 +198,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40035275" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28917196" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -232,15 +233,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/share.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="238" column="16" selection-start-line="238" selection-start-column="16" selection-end-line="244" selection-end-column="22" />
+        <state relative-caret-position="86">
+          <caret line="308" column="67" selection-start-line="308" selection-start-column="42" selection-end-line="308" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="963" column="12" selection-start-line="963" selection-start-column="12" selection-end-line="963" selection-end-column="12" />
+        <state relative-caret-position="204">
+          <caret line="943" column="23" selection-start-line="943" selection-start-column="23" selection-end-line="943" selection-end-column="23" />
         </state>
       </provider>
     </entry>

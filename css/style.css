@@ -940,6 +940,8 @@ button.close {
 .shares-page-flex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 .shares-page-flex-item {
     width: 48%;
@@ -949,6 +951,7 @@ button.close {
     padding: 50px 15px 15px 15px;
     text-align: center;
     position: relative;
+    margin-bottom: 45px;
 }
 .shares-title-page-text {
     font-weight: bold;
@@ -959,10 +962,15 @@ button.close {
     display: block;
 }
 .shares-align-center {
-    display: inline-block;
     position: absolute;
     top: -24px;
-    right: 22%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+}
+.shares-page-flex-item-big {
+    width: 100%;
 }
 @media (min-width: 768px) {
     .navbar-nav {
