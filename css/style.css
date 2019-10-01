@@ -1593,7 +1593,7 @@ button.close {
     }
     .deliery-list-item {
         width: 40%;
-        margin: 0 10px;
+        margin: 15px 10px;
     }
     .video-text {
         position: initial;
@@ -1601,7 +1601,7 @@ button.close {
         margin-bottom: 20px;
     }
     .video-flex-block {
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 20px;
@@ -1662,5 +1662,8 @@ button.close {
     }
     .send-modal-title img {
         width: 103%;
+    }
+    .send-modal-info {
+        background-size: 100%;
     }
 }
