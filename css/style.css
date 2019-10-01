@@ -223,7 +223,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: -60px 0;
+    margin: -80px 0;
 }
 .shares-center {
     text-align: center;
@@ -279,6 +279,8 @@ a:focus {
 }
 .shares-image-santa {
     width: 23%;
+    position: relative;
+    bottom: 45px;
 }
 .shares-link-flex-block {
     width: 77%;
@@ -1698,5 +1700,8 @@ button.close {
     }
     .nav-tabs > li > a span {
         font-size: 12px;
+    }
+    .shares-image-santa {
+        bottom: 0;
     }
 }
