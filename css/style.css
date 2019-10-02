@@ -1078,6 +1078,12 @@ button.close {
     .shares-center-right {
         margin-bottom: 50px;
     }
+    .shares-page-block {
+        top: 50px;
+    }
+    .shares-page-text {
+        margin-bottom: 15px;
+    }
 }
 @media(max-width: 991px) {
     .shares-block-flex {
@@ -1294,6 +1300,22 @@ button.close {
     }
     .shares-center {
         background-position-y: 90px;
+    }
+    .shares-page-flex-item {
+        width: 100%;
+    }
+    .shares-page-block {
+        right: 1%;
+    }
+    .shares-page-block {
+        width: 250px;
+    }
+    .shares-page-text {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .shares-page-flex {
+        margin-top: 40px;
     }
 }
 @media(max-width: 767px) {
@@ -1796,5 +1818,13 @@ button.close {
     }
     .shares-image-santa {
         bottom: 0;
+    }
+    .tab-content {
+        padding-left: 0;
+    }
+    .shares-page-block {
+        width: 100%;
+        position: initial;
+        margin-bottom: 60px;
     }
 }
