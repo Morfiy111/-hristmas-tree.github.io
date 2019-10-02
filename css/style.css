@@ -142,6 +142,7 @@ a:focus {
 }
 .navbar-nav > li {
     margin-right: 15px;
+    min-width: 98px;
 }
 .main-button-catalog {
     color: #000;
@@ -670,10 +671,6 @@ button.close {
 }
 .deivery-row-text a {
     color: #fdc32e;
-}
-.grey-background-delivery {
-    background-color: #f8f8f8;
-    padding: 40px 0;
 }
 .title-delivery-page {
     margin: 0 0 30px 74px;

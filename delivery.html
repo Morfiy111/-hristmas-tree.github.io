@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Crash-baggage</title>
+    <title>Мир Ёлок</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fotorama.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -19,9 +21,11 @@
 </head>
 <body>
 <header class="header-page">
-    <div class="header-orange-line"></div>
     <div class="container container-relative">
         <div class="header-flex-block">
+            <div class="header-logo">
+                <a href="/"><img src="images/logo.png" alt=""></a>
+            </div>
             <nav class="navbar navbar-default hidden-sm hidden-md hidden-lg">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
@@ -33,12 +37,13 @@
                 <div class="collapse navbar-collapse" id="navbar-main">
                     <ul class="nav navbar-nav">
                         <li><a href="#">КАТАЛОГ</a></li>
-                        <li class="active"><a href="#">АКЦИИ</a></li>
-                        <li><a href="#">ДОСТАВКА</a></li>
+                        <li><a href="#">АКЦИИ</a></li>
+                        <li class="active"><a href="#">ДОСТАВКА</a></li>
                         <li><a href="#">КОНТАКТЫ</a></li>
                     </ul>
                 </div>
             </nav>
+
             <div class="header-work-time-block hidden-xs">
                 <div class="header-icon">
                     <img src="images/time-icon.png" alt="">
@@ -57,9 +62,6 @@
                     (магазин)
                 </div>
             </div>
-            <div class="header-logo">
-                <a href="/"><img src="images/logo.png" alt=""></a>
-            </div>
             <div class="header-phone hidden-xs">
                 <div class="header-icon">
                     <img src="images/phone-icon.png" alt="">
@@ -77,7 +79,9 @@
                     </div>
                     <div class="cart-img-sum">66 000 р.</div>
                 </div>
-                <div class="header-cart-buy"><a href="#" data-toggle="modal" data-target="#order">Оформить</a></div>
+                <div class="header-cart-buy">
+                    <a href="#" data-toggle="modal" data-target="#order">Оформить</a>
+                </div>
             </div>
         </div>
     </div>
@@ -341,17 +345,18 @@
     </div>
 </div>
 <footer class="footer-page">
+    <img src="images/footer-top.png" alt="" class="footer-img-top">
     <div class="container">
         <div class="footer-flex-block">
             <div class="footer-logo">
-                <img src="images/logo-footer.png">
+                <a href="#"><img src="images/logo-footer.png"></a>
             </div>
             <div class="footer-links">
                 <a href="#">Каталог</a>
-                <a href="#">Доставка</a>
+                <a href="#">Контакты</a>
                 <a href="#">Оплата</a>
+                <a href="#" class="hidden-lg hidden-md">Доставка</a>
                 <a href="#" class="hidden-lg hidden-md">Акции</a>
-                <a href="#" class="hidden-lg hidden-md">Контакты</a>
                 <a href="#" class="hidden-lg hidden-md">Гарантия и сервис</a>
             </div>
             <div class="footer-links hidden-sm hidden-xs">
@@ -369,23 +374,15 @@
                     <span><a href="tel:+74959887328">+7 (495) 988-73-28</a></span>
                 </div>
             </div>
-            <div class="footer-social">
-                <div class="social-links">
-                    <a href="#" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
-                    <a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                    <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </div>
-                <div class="footer-btn">
-                    <button type="submit">Помогите нам стать лучше</button>
-                </div>
-            </div>
         </div>
         <div class="copyright-block">Все права защищены</div>
     </div>
+    <img src="images/footer-bottom.png" alt="" class="footer-img-bottom">
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Включают все скомпилированные плагины (ниже), или включать отдельные файлы по мере необходимости -->
 <script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.js"></script>
 <script src="js/fotorama.js"></script>
 <script src="js/main.js"></script>
 </body>
