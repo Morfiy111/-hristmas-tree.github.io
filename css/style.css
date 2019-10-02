@@ -975,6 +975,12 @@ button.close {
 .shares-page-flex-item-big {
     width: 100%;
 }
+.tab-content {
+    background-image: url("../images/snow-catalog.png");
+    background-position: 0 -37px;
+    background-size: auto;
+    padding-left: 38px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         width: 100%;
