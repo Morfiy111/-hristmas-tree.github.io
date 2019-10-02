@@ -4,7 +4,8 @@ body {
     font-size: 16px;
     line-height: 1.22;
     background-image: url("../images/bg.jpg");
-    background-size: 100%;
+    background-size: 1562px;
+    background-position: 50% 0;
 }
 @font-face {
     font-family: 'cambria';
@@ -465,7 +466,7 @@ a:focus {
     background: linear-gradient(to right, #fcab48 , #b27f41);
     color: #fff;
     position: relative;
-    padding: 72px 0 100px;
+    padding: 53px 0 60px;
 }
 .footer-flex-block a {
     color: #fff;
@@ -475,7 +476,7 @@ a:focus {
 .footer-flex-block {
     display: flex;
     justify-content: space-between;
-    margin: 30px 0px;
+    margin: 20px 0px;
 }
 .bottom-text-center {
     text-align: center;
@@ -758,6 +759,7 @@ button.close {
 }
 .delivery-block {
     margin-bottom: 40px;
+    background-color: #fff;
 }
 .video-text {
     position: absolute;
