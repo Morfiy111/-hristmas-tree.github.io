@@ -1292,6 +1292,9 @@ button.close {
         white-space: nowrap;
         margin-right: 15px;
     }
+    .shares-center {
+        background-position-y: 90px;
+    }
 }
 @media(max-width: 767px) {
     .footer-flex-block {
