@@ -673,7 +673,7 @@ button.close {
     color: #fdc32e;
 }
 .title-delivery-page {
-    margin: 0 0 30px 74px;
+    text-align: center;
 }
 .contact-link-black {
     align-items: flex-start;
