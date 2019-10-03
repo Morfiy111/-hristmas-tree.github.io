@@ -1915,6 +1915,41 @@ button.close {
     .delivery-flex-page {
         justify-content: space-between;
     }
+    .mobile-prop-left-block {
+        display: flex;
+    }
+    .mobile-prop-right {
+        text-align: right;
+        padding-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .mobile-prop-right-width {
+        width: 60%;
+    }
+    .mobile-img-left {
+        width: 40%;
+    }
+    .mobile-prop-title:after {
+        content: '';
+        width: 130px;
+        height: 30px;
+        background-image: url(../images/menu-active.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        background-size: 130px;
+        bottom: -30px;
+        right: -50px;
+    }
+    .mobile-prop-title {
+        position: relative;
+        font-size: 22px;
+        font-family: 'cambria';
+        margin-bottom: 30px;
+    }
+    .mobile-prop-text-right {
+        padding-left: 15px;
+    }
 }
 @media (max-width: 540px) {
     .delivery-row {

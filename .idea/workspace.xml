@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/сhristmas-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/сhristmas-tree.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="1034" column="16" selection-start-line="1034" selection-start-column="16" selection-end-line="1034" selection-end-column="16" />
+            <state relative-caret-position="102">
+              <caret line="1924" column="28" selection-start-line="1924" selection-start-column="28" selection-end-line="1924" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -72,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="257" column="14" selection-start-line="257" selection-start-column="14" selection-end-line="257" selection-end-column="14" />
+            <state relative-caret-position="114">
+              <caret line="280" column="3" lean-forward="true" selection-start-line="280" selection-start-column="3" selection-end-line="280" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -106,6 +107,7 @@
       <find>owl</find>
       <find>class=&quot;close&quot;</find>
       <find>send-modal-title</find>
+      <find>src=&quot;images/tree-banner-mobile.png&quot;</find>
       <find>foo</find>
     </findStrings>
   </component>
@@ -126,8 +128,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="142" />
-    <option name="y" value="86" />
+    <option name="x" value="-4" />
+    <option name="y" value="137" />
     <option name="width" value="1371" />
     <option name="height" value="917" />
   </component>
@@ -206,15 +208,15 @@
       <workItem from="1569995512435" duration="1095000" />
       <workItem from="1570002746839" duration="13971000" />
       <workItem from="1570080715604" duration="1584000" />
-      <workItem from="1570086821995" duration="11095000" />
+      <workItem from="1570086821995" duration="13566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126540000" />
+    <option name="totallyTimeSpent" value="129011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="86" width="1371" height="917" extended-state="0" />
+    <frame x="-4" y="137" width="1371" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32801822" />
@@ -282,15 +284,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="1034" column="16" selection-start-line="1034" selection-start-column="16" selection-end-line="1034" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="1924" column="28" selection-start-line="1924" selection-start-column="28" selection-end-line="1924" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="257" column="14" selection-start-line="257" selection-start-column="14" selection-end-line="257" selection-end-column="14" />
+        <state relative-caret-position="114">
+          <caret line="280" column="3" lean-forward="true" selection-start-line="280" selection-start-column="3" selection-end-line="280" selection-end-column="3" />
         </state>
       </provider>
     </entry>
