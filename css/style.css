@@ -689,7 +689,7 @@ button.close {
 .contact-flex-block {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 120px;
 }
 .contact-col-info {
     width: 50%;

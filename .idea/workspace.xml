@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/contact-banner-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/contact-banner-mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/contact-banner-tablet.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/contact-banner-tablet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="665" column="13" selection-start-line="665" selection-start-column="13" selection-end-line="665" selection-end-column="13" />
+            <state relative-caret-position="434">
+              <caret line="691" column="24" selection-start-line="691" selection-start-column="24" selection-end-line="691" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -45,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="3705">
               <caret line="247" column="80" selection-start-line="247" selection-start-column="80" selection-end-line="247" selection-end-column="80" />
             </state>
           </provider>
@@ -118,14 +118,14 @@
         <option value="$PROJECT_DIR$/сhristmas-tree.html" />
         <option value="$PROJECT_DIR$/share.html" />
         <option value="$PROJECT_DIR$/delivery.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-17" />
+    <option name="x" value="32" />
     <option name="y" value="97" />
     <option name="width" value="1371" />
     <option name="height" value="917" />
@@ -204,18 +204,19 @@
       <workItem from="1569994836853" duration="474000" />
       <workItem from="1569995512435" duration="1095000" />
       <workItem from="1570002746839" duration="13971000" />
-      <workItem from="1570080715604" duration="971000" />
+      <workItem from="1570080715604" duration="1584000" />
+      <workItem from="1570086821995" duration="279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114832000" />
+    <option name="totallyTimeSpent" value="115724000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-17" y="97" width="1371" height="917" extended-state="0" />
+    <frame x="32" y="97" width="1371" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32270312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32801822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,17 +241,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/share.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3345">
           <caret line="223" column="4" selection-end-line="378" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3705">
+          <caret line="247" column="80" selection-start-line="247" selection-start-column="80" selection-end-line="247" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -278,17 +279,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="247" column="80" selection-start-line="247" selection-start-column="80" selection-end-line="247" selection-end-column="80" />
+        <state relative-caret-position="434">
+          <caret line="691" column="24" selection-start-line="691" selection-start-column="24" selection-end-line="691" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="665" column="13" selection-start-line="665" selection-start-column="13" selection-end-line="665" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
         </state>
       </provider>
     </entry>
