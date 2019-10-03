@@ -868,7 +868,7 @@ button.close {
     margin-left: -30px;
 }
 .tree-banner-block {
-    margin-bottom: 40px;
+    background-color: #fff;
 }
 .tabs-catalog-link .active .image-tab-active {
     display: block;
