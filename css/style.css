@@ -401,7 +401,7 @@ a:focus {
     color: #000;
 }
 .table-property {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: 20px;
 }
 .delivery-image-form {
@@ -671,10 +671,12 @@ button.close {
 }
 .deivery-row-text a {
     color: #fdc32e;
+    white-space: nowrap;
 }
 .title-delivery-page {
     text-align: center;
     margin-bottom: 40px;
+    font-weight: bold;
 }
 .contact-link-black {
     align-items: center;
@@ -1002,6 +1004,7 @@ button.close {
 }
 .title-delivery-page-left {
     margin: 0 0 30px 74px;
+    font-weight: bold;
 }
 .delivery-row-bottom {
     margin-bottom: 15px;
@@ -1861,7 +1864,7 @@ button.close {
     .shares-page-block {
         width: 100%;
         position: initial;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
     }
     .delivery-row {
         width: 50%;
@@ -1871,6 +1874,12 @@ button.close {
     }
     .modal-dialog {
         padding-top: 50px;
+    }
+    .share-page-flex-title {
+        width: 80%;
+    }
+    .title-delivery-page-left {
+        margin: 20px 0 30px 74px;
     }
 }
 @media (max-width: 540px) {
