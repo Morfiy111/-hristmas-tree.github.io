@@ -763,7 +763,6 @@ button.close {
 }
 .delivery-block {
     margin-bottom: 40px;
-    background-color: #fff;
     margin-top: 30px;
 }
 .video-text {
@@ -1790,6 +1789,7 @@ button.close {
     }
     .footer-address-item img {
         margin-right: 0;
+        margin-bottom: 10px;
     }
     .footer-page {
         padding: 20px 0;
