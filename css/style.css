@@ -65,10 +65,8 @@ a:focus {
 }
 .header-cart-buy a {
     color: #fff;
-    border: 2px solid transparent;
-    border-image: linear-gradient(#f4ce76 , #caa15e);
+    border: 2px solid #caa15e;
     border-radius: 5px;
-    border-image-slice: 1;
     padding: 2px 20px;
 }
 .header-cart-buy a:hover {
@@ -146,10 +144,8 @@ a:focus {
 }
 .main-button-catalog {
     color: #000;
-    border: 3px solid transparent;
-    border-image: linear-gradient(#f4ce76 , #caa15e);
+    border: 3px solid #caa15e;
     border-radius: 5px;
-    border-image-slice: 1;
     padding: 8px 20px;
     right: 30px;
     bottom: 30px;
@@ -179,10 +175,8 @@ a:focus {
 }
 .main-button-obj {
     color: #fff;
-    border: 3px solid transparent;
-    border-image: linear-gradient(#f4ce76 , #caa15e);
+    border: 3px solid #caa15e;
     border-radius: 5px;
-    border-image-slice: 1;
     padding: 8px 20px;
 }
 .main-button-obj:hover {
@@ -335,10 +329,8 @@ a:focus {
     padding-right: 20px;
 }
 .catalog-items-min:hover {
-    border: 1px solid transparent;
+    border: 1px solid #caa15e;
     background-color: transparent;
-    border-image: linear-gradient(#f4ce76 , #caa15e);
-    border-image-slice: 1;
 }
 .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary, .btn-default.active, .btn-default.active:hover, .btn-primary.active:hover, .btn-primary:hover, .btn-default:hover, .btn-default.active:focus, .btn-default:active:focus, .btn-primary:active:hover {
     background-color: transparent;
@@ -369,11 +361,9 @@ a:focus {
 }
 .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default, .btn-default.active.focus  {
     color: #e2b969;
-    border: 2px solid transparent;
+    border: 2px solid #caa15e;
     background-color: transparent;
-    border-image: linear-gradient(#f4ce76 , #caa15e);
     outline: none;
-    border-image-slice: 1;
 }
 .form .rabs {
     display: flex;
