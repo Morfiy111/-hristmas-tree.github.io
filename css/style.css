@@ -1020,6 +1020,12 @@ button.close {
     text-align: center;
     margin-bottom: 30px;
 }
+.modal-dialog {
+    padding-top: 50px;
+}
+.modal {
+    top: 40px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         width: 100%;
