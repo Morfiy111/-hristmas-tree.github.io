@@ -1031,6 +1031,9 @@ button.close {
 .modal {
     top: 40px;
 }
+.footer-logo img {
+    width: 200px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         width: 100%;
