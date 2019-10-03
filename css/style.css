@@ -750,8 +750,8 @@ button.close {
 }
 .delivery-list-block {
     position: absolute;
-    bottom: 130px;
-    right: 145px;
+    bottom: 110px;
+    right: 160px;
     width: 190px;
 }
 .video-flex-block {
@@ -953,9 +953,8 @@ button.close {
 }
 .shares-page-flex-item {
     width: 48%;
-    border: 3px solid transparent;
-    border-image: linear-gradient(#f4ce76 , #caa15e);
-    border-image-slice: 1;
+    border: 3px solid #caa15e;
+    background-color: #fff;
     padding: 50px 15px 15px 15px;
     text-align: center;
     position: relative;
