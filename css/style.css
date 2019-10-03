@@ -568,9 +568,10 @@ button.close {
 .button-close-modal a {
     color: #000;
     padding: 10px 20px;
-    border: 2px solid transparent;
-    border-image: linear-gradient(#f4ce76 , #caa15e);
-    border-image-slice: 1;
+    border: 3px solid #caa15e;
+    border-radius: 4px;
+    /* border-image: linear-gradient(#f4ce76 , #caa15e); */
+    /* border-image-slice: 1; */
 }
 .button-close-modal a:hover {
     background: linear-gradient(#f4ce76 , #caa15e);
@@ -612,6 +613,7 @@ button.close {
     padding: 12px;
     font-size: 20px;
     font-weight: bold;
+    border: none;
 }
 .catalog-items-mobile {
     display: none;
