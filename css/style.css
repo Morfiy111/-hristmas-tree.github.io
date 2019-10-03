@@ -1790,7 +1790,10 @@ button.close {
         margin-bottom: 20px;
     }
     .footer-logo img {
-        width: 100%;
+        width: auto;
+    }
+    .footer-logo {
+        text-align: center;
     }
     .footer-address-item {
         flex-direction: column;
