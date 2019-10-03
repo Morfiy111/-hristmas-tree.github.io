@@ -585,9 +585,11 @@ button.close {
     background: linear-gradient(#f4ce76 , #caa15e);
 }
 .send-modal-title {
-    font-weight: bold;
-    font-size: 22px;
+    font-size: 26px;
     margin-bottom: 20px;
+    font-family: 'cambria';
+    text-align: center;
+    padding-top: 32px;
 }
 .send-modal-info input {
     width: 100%;
@@ -1373,6 +1375,10 @@ button.close {
     .delivery-row-top {
         width: 33%;
     }
+    .send-modal-title {
+        padding-top: 52px;
+        padding-bottom: 26px;
+    }
 }
 @media(max-width: 767px) {
     .footer-flex-block {
@@ -1679,8 +1685,8 @@ button.close {
     }
 
     .send-modal-title {
-        font-size: 16px;
-        margin-bottom: 20px;
+        padding-top: 131px;
+        padding-bottom: 60px;
     }
 
     .share-page-block {
@@ -1919,5 +1925,8 @@ button.close {
     }
     .delivery-row-top {
         width: 100%;
+    }
+    .send-modal-title {
+        padding-top: 14vh;
     }
 }
