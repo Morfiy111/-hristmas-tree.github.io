@@ -222,7 +222,6 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: -80px 0;
 }
 .shares-center {
     text-align: center;
@@ -1033,6 +1032,11 @@ button.close {
 }
 .footer-logo img {
     width: 200px;
+}
+.margin-back-santa {
+    background-color: #fff;
+    padding-top: 40px;
+    margin: -80px 0;
 }
 @media (min-width: 768px) {
     .navbar-nav {
@@ -1949,6 +1953,9 @@ button.close {
     }
     .mobile-prop-text-right {
         padding-left: 15px;
+    }
+    .margin-back-santa {
+        margin-top: 0;
     }
 }
 @media (max-width: 540px) {
