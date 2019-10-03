@@ -1698,8 +1698,6 @@ button.close {
     .owl-dots {
         width: 100%;
         text-align: center;
-        position: absolute;
-        top: -46px;
     }
     .owl-dot {
         width: 16px;
