@@ -1451,7 +1451,7 @@ button.close {
         column-count: 1;
         width: 100%;
         background-color: #fff;
-        z-index: 11122;
+        z-index: 11;
         position: relative;
     }
     .suitcase-certificate-title h2 {
