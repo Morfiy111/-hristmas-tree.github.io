@@ -541,18 +541,23 @@ a:focus {
 }
 .modal-content {
     background-color: transparent;
-    border: 10px solid transparent;
-    border-image: linear-gradient(#f4ce76 , #caa15e);
-    border-image-slice: 1;
+    border: 10px solid #caa15e;
+    border-radius: 0;
+    /*border-image: linear-gradient(#f4ce76 , #caa15e);
+    border-image-slice: 1;*/
 }
 button.close {
     position: absolute;
-    right: 5px;
+    right: -10px;
     z-index: 1;
-    font-size: 26px;
-    color: #000;
-    top: 0;
+    font-size: 20px;
+    color: #fff;
+    top: -50px;
     opacity: 1;
+    background: linear-gradient(to right, #f4ce76 , #caa15e);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: normal;
 }
 .sum-modal-price {
     font-weight: bold;
@@ -1614,7 +1619,7 @@ button.close {
     }
 
     .modal-content {
-        border: 15px solid rgba(253, 195, 46, 0.7);
+        border: 10px solid #caa15e;
     }
 
     .modal-dialog {
@@ -1865,6 +1870,9 @@ button.close {
     }
     .delivery-flex-page {
         flex-direction: row-reverse;
+    }
+    .modal-dialog {
+        padding-top: 50px;
     }
 }
 @media (max-width: 540px) {
