@@ -914,6 +914,7 @@ button.close {
 }
 .shares-page-banner {
     position: relative;
+    margin-bottom: 50px;
 }
 .shares-page-btn a {
     color: #000;

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="" />
+    <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="1042" column="16" selection-start-line="1042" selection-start-column="16" selection-end-line="1042" selection-end-column="16" />
+            <state relative-caret-position="162">
+              <caret line="916" column="24" selection-start-line="916" selection-start-column="24" selection-end-line="916" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -67,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="15">
               <caret line="88" column="92" selection-start-line="88" selection-start-column="80" selection-end-line="88" selection-end-column="92" />
             </state>
           </provider>
@@ -123,8 +126,8 @@
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/delivery.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/сhristmas-tree.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -140,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,12 +165,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project-keaz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tetris" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -212,17 +215,21 @@
       <workItem from="1570080715604" duration="1584000" />
       <workItem from="1570086821995" duration="16279000" />
       <workItem from="1570112185355" duration="272000" />
-      <workItem from="1570167479038" duration="8605000" />
+      <workItem from="1570167479038" duration="9805000" />
+      <workItem from="1570186177230" duration="69000" />
+      <workItem from="1570186272939" duration="794000" />
+      <workItem from="1570198137118" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140601000" />
+    <option name="totallyTimeSpent" value="142673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="141" y="75" width="1371" height="917" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33864844" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3553531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -285,17 +292,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="1042" column="16" selection-start-line="1042" selection-start-column="16" selection-end-line="1042" selection-end-column="16" />
+        <state relative-caret-position="15">
+          <caret line="88" column="92" selection-start-line="88" selection-start-column="80" selection-end-line="88" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="88" column="92" selection-start-line="88" selection-start-column="80" selection-end-line="88" selection-end-column="92" />
+        <state relative-caret-position="162">
+          <caret line="916" column="24" selection-start-line="916" selection-start-column="24" selection-end-line="916" selection-end-column="24" />
         </state>
       </provider>
     </entry>
