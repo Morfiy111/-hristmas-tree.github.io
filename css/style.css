@@ -1789,6 +1789,7 @@ button.close {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        background-color: #fff;
     }
     .delivery-block-image {
         margin-bottom: 20px;
@@ -1845,9 +1846,6 @@ button.close {
     }
     .delivery-list-block p {
         margin-top: 20px;
-    }
-    body {
-        background-image: none;
     }
     .goods-scroll {
         height: 270px;
@@ -1956,6 +1954,9 @@ button.close {
     }
     .header-flex-block {
         align-items: flex-start;
+    }
+    .delivery-block {
+        background-color: #fff;
     }
 }
 @media (max-width: 540px) {
