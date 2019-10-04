@@ -227,6 +227,7 @@ a:focus {
     text-align: center;
     margin-top: 50px;
     background-image: url("../images/bg-line.png");
+    background-color: #fff;
     background-size: 100%;
     background-position-y: 50px;
     background-repeat: no-repeat;
