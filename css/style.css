@@ -1471,6 +1471,7 @@ button.close {
         left: 0;
         top: 115px;
         text-align: center;
+        z-index: 11;
     }
     .navbar-default .navbar-nav > .active a::after {
         background-image: none;
