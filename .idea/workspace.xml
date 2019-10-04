@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/сhristmas-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/сhristmas-tree.html" afterDir="false" />
-    </list>
+    <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="215" column="63" lean-forward="true" selection-start-line="215" selection-start-column="63" selection-end-line="215" selection-end-column="63" />
+            <state relative-caret-position="159">
+              <caret line="88" column="92" selection-start-line="88" selection-start-column="80" selection-end-line="88" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -112,6 +109,7 @@
       <find>owl</find>
       <find>cell</find>
       <find>navbar-m</find>
+      <find>myModalLabel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,16 +212,15 @@
       <workItem from="1570080715604" duration="1584000" />
       <workItem from="1570086821995" duration="16279000" />
       <workItem from="1570112185355" duration="272000" />
-      <workItem from="1570167479038" duration="8038000" />
+      <workItem from="1570167479038" duration="8605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140034000" />
+    <option name="totallyTimeSpent" value="140601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="141" y="75" width="1371" height="917" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33864844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -297,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/сhristmas-tree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="215" column="63" lean-forward="true" selection-start-line="215" selection-start-column="63" selection-end-line="215" selection-end-column="63" />
+        <state relative-caret-position="159">
+          <caret line="88" column="92" selection-start-line="88" selection-start-column="80" selection-end-line="88" selection-end-column="92" />
         </state>
       </provider>
     </entry>
