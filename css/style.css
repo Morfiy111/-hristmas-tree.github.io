@@ -1953,6 +1953,9 @@ button.close {
     .margin-back-santa {
         margin-top: 0;
     }
+    .header-flex-block {
+        align-items: flex-start;
+    }
 }
 @media (max-width: 540px) {
     .delivery-row {
