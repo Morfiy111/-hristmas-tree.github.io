@@ -571,7 +571,7 @@ button.close {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid #e2e2e2;
-    padding: 20px 0;
+    padding: 15px 0 20px 0;
 }
 .button-close-modal a {
     color: #000;
@@ -1779,7 +1779,7 @@ button.close {
         width: 100%;
     }
     .shares-center {
-        margin-top: 0;
+        margin-top: 30px;
     }
     .nav-tabs > li:nth-child(2) {
         border-left: 1px solid #e2e2e2;
@@ -1878,7 +1878,7 @@ button.close {
         background-size: 100%;
     }
     .banner-img-block img {
-        margin: 30px 0px;
+        margin: 0px 0px 20px 0;
     }
     .navbar-nav > li:hover a::after {
         background-image: none;
