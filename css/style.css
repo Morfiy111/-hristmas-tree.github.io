@@ -1039,6 +1039,9 @@ button.close {
     padding-top: 40px;
     margin: -80px 0;
 }
+.table-property {
+    border: none;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         width: 100%;
