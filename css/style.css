@@ -1666,15 +1666,9 @@ button.close {
     .goods-property-modal {
         font-size: 12px;
     }
-
-    .goods-property-modal table {
-        width: 90%;
-    }
-
     .goods-property-modal td {
         padding: 5px 5px 5px 0;
     }
-
     .modal-goods-price {
         white-space: nowrap;
         padding: 5px 0;
@@ -1975,5 +1969,10 @@ button.close {
     }
     .send-modal-title {
         padding-top: 14vh;
+    }
+}
+@media (max-width: 390px) {
+    .send-modal-title {
+        padding-top: 9vh;
     }
 }
