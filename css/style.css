@@ -1780,9 +1780,6 @@ button.close {
         border-left: 1px solid #e2e2e2;
         border-right: 1px solid #e2e2e2;
     }
-    .catalog-flex-block {
-        box-shadow: none;
-    }
     .delivery-list-block {
         position: initial;
         width: 100%;
