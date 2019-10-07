@@ -824,7 +824,8 @@ button.close {
     font-size: 34px;
 }
 .shares-center-right {
-    text-align: right;
+    text-align: center;
+    padding-left: 22%;
 }
 .number {
     display: flex;
@@ -1844,6 +1845,7 @@ button.close {
         text-align: center;
         width: 55%;
         color: #000;
+        padding-left: 0;
     }
     .delivery-list-block p {
         margin-top: 20px;
