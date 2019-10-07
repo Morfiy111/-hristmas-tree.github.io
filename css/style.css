@@ -301,7 +301,6 @@ a:focus {
     padding: 20px 15px;
     z-index: 1;
     margin-top: -20px;
-    margin-bottom: -20px;
     background-color: #fff;
 }
 .flex-catalog-items-min {
@@ -324,7 +323,7 @@ a:focus {
 .catalog-items-block {
     width: 59%;
     padding: 20px;
-    box-shadow: 6px 0px 12px 0px rgba(150, 150, 150, 0.55);
+    box-shadow: 2px 0px 10px 0px rgba(150, 150, 150, 0.55);
 }
 .catalog-property {
     width: 20%;
@@ -990,6 +989,7 @@ button.close {
     background-position: 0 -37px;
     background-size: auto;
     padding-left: 38px;
+    box-shadow: 0px 0px 33px 0px rgba(150, 150, 150, 0.55);
 }
 .delivery-flex-page {
     display: flex;
