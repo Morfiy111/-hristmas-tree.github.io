@@ -766,6 +766,10 @@ button.close {
     display: flex;
     justify-content: center;
     margin-bottom: 140px;
+    background-image: url("../images/bg-snow.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-bottom: 64px;
 }
 .delivery-block {
     margin-bottom: 40px;
