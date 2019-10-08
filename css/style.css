@@ -280,11 +280,11 @@ a:focus {
 }
 .shares-image-santa img {
     width: 100%;
+    margin-top: -45px;
 }
 .shares-image-santa {
-    width: 23%;
+    width: 21%;
     position: relative;
-    bottom: 45px;
 }
 .shares-link-flex-block {
     width: 77%;
@@ -826,6 +826,7 @@ button.close {
 .shares-center-right {
     text-align: center;
     padding-left: 22%;
+    margin-bottom: -20px;
 }
 .number {
     display: flex;

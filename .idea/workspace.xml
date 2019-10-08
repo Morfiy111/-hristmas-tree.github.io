@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7894337f-5f82-4c3f-add2-8232a6c9d965" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="296" column="1" lean-forward="true" selection-start-line="296" selection-start-column="1" selection-end-line="296" selection-end-column="1" />
+            <state relative-caret-position="89">
+              <caret line="828" column="25" selection-start-line="828" selection-start-column="25" selection-end-line="828" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -142,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,7 +165,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,17 +220,19 @@
       <workItem from="1570186272939" duration="794000" />
       <workItem from="1570198137118" duration="165000" />
       <workItem from="1570426666980" duration="1345000" />
-      <workItem from="1570451900937" duration="1535000" />
+      <workItem from="1570451900937" duration="1561000" />
+      <workItem from="1570513736204" duration="718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145709000" />
+    <option name="totallyTimeSpent" value="146453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="141" y="75" width="1371" height="917" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36750188" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3735763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -301,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="296" column="1" lean-forward="true" selection-start-line="296" selection-start-column="1" selection-end-line="296" selection-end-column="1" />
+        <state relative-caret-position="89">
+          <caret line="828" column="25" selection-start-line="828" selection-start-column="25" selection-end-line="828" selection-end-column="25" />
         </state>
       </provider>
     </entry>
